@@ -1,0 +1,34 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "Decorate",
+            "id": "8e63b333-36ab-4dc3-90c7-71076ab7caa8",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "1aa2bf2b-e65f-4920-b3ae-101dcc38cd5d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "38379275-4397-4162-b57b-f1ae758df115",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
