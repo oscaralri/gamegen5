@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: Uno
   DecorType: 0
   Icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  Prefab: {fileID: 3097454237508299611, guid: 6c3a4708f71d6004da13d70bec7df289, type: 3}

@@ -1,2 +1,20 @@
 ARREGLOS ALGÚN MOMENTO:
-	- cosas de interacción en ui y raycast que todo esté en capas bien colocadas para que no se compruebe con 
+	- cosas de interacción en ui y raycast que todo esté en capas bien colocadas para que no se compruebe con todo
+	- si al final tengo dos cámaras tengo que estar atento que en cosas como el iconUI se usa camera.main
+
+
+
+HACIENDO AHORA:
+- Drag and Drop:
+	- cuando estas sobre pantalla habitación prefab transparente y verde o rojo según donde lo estés intentando poner
+
+
+- dónde compruebo si el sitio donde se está poniendo es el correcto?
+	- en el objeto: objeto tiene asignado nomrbres de colliders 
+
+	- en un gamemanager/model: se pasa info de los dos colliders y se comprueba si son válidos
+
+- cada gameobject collider tiene una variable enum que define el tipo que son / que define para quienes son válidos
+
+	- PODRÍA GUARDAR LA INFORMACIÓN DE COSAS IM`PORTANTES DEL GAMEOBJECT EN EL ICONO Y PONER EL GAMEOBJECT QUE SE CREA AL ARRASTRAR COMO HIJO DEL ICONOO
+

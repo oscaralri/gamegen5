@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: Tres
   DecorType: 0
   Icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  Prefab: {fileID: 8350921955156666533, guid: 2b1bfb7852f05eb409c2bfa56bcb427d, type: 3}
