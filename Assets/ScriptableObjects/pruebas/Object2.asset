@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
-  m_Name: DecorObjectInfo
+  m_Name: Object2
   m_EditorClassIdentifier: 
-  Name: 0
+  Name: Dos
   DecorType: 0
-  icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  Icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}

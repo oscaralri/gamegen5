@@ -1,0 +1,2 @@
+ARREGLOS ALGÚN MOMENTO:
+	- cosas de interacción en ui y raycast que todo esté en capas bien colocadas para que no se compruebe con 

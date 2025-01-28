@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 889069cbdda368846afa1e79a6efee8a, type: 3}
-  m_Name: PagesScriptable
+  m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
+  m_Name: Object1
   m_EditorClassIdentifier: 
-  scriptableObjects:
-  - {fileID: 0}
+  Name: Uno
+  DecorType: 0
+  Icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}

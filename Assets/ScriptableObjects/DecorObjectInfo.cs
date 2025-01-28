@@ -4,7 +4,8 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "DecorObjectInfo", menuName = "Scriptable Objects/DecorObjectInfo")]
 public class DecorObjectInfo : ScriptableObject
 {
-    public int Name;
+    public string Name;
     public DecorType DecorType;
-    public Sprite icon;
+    public Sprite Icon;
+    public GameObject Prefab;
 }
