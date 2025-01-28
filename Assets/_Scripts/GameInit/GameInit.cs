@@ -62,10 +62,11 @@ public class GameInit : MonoBehaviour
                     image.sprite = decorObject.Icon; 
                 }
 
-                // prefab and decorType
+                // prefab and decorType and aesthType
                 var iconUI = child.AddComponent<IconUI>();
                 iconUI.prefab = scriptableObject.Prefab;
                 iconUI.decorType = scriptableObject.DecorType; // quizás no hace falta
+                iconUI.aestheticType = scriptableObject.aestheticType;
             }
         }
     }

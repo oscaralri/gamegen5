@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public GameObject furniturePrefab; 
+    public GameObject prefab; 
     private GameObject draggedObject;
     private Canvas canvas; 
 
@@ -15,7 +15,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public void OnBeginDrag(PointerEventData eventData)
     {
         draggedObject = Instantiate(gameObject, canvas.transform);
-        draggedObject.transform.SetAsLastSibling();
+        //draggedObject.transform.SetAsLastSibling();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -47,7 +47,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         Ray ray = Camera.main.ScreenPointToRay(eventData.position);
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            Instantiate(furniturePrefab, hit.point, Quaternion.identity);
+            Instantiate(prefab, hit.point, Quaternion.identity);
         }
     }
 }

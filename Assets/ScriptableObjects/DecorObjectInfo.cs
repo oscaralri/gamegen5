@@ -8,4 +8,7 @@ public class DecorObjectInfo : ScriptableObject
     public DecorType DecorType;
     public Sprite Icon;
     public GameObject Prefab;
+    public AestheticType aestheticType; 
 }
+
+public enum AestheticType {Sport, Religious, Goth, Cute}

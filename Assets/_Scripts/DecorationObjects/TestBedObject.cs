@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-
+/*
 public class TestBedObject : ADecorationObject, IPlaceableItem 
 {
     public override void OnPlaced()
@@ -23,3 +23,4 @@ public class TestBedObject : ADecorationObject, IPlaceableItem
         throw new System.NotImplementedException();
     }
 }
+*/
