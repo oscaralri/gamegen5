@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "LevelScriptable", menuName = "Scriptable Objects/LevelScriptable")]
 public class LevelScriptable : ScriptableObject
 {
-    public List<AestheticType> bestTypes;
-    public List<AestheticType> averageTypes;
-    public List<AestheticType> wrongTypes;
+    public List<ActionRes> toDo1;
+    public List<ActionRes> toDo2;
+    public List<ActionRes> toDo3;
 }

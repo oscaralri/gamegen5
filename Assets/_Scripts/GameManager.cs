@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -13,29 +14,28 @@ public class GameManager : MonoBehaviour
     // cada vez que se coloca un objeto hay que avisarle
     // cada vez que se elimina un objeto hay que avisarle 
 
-    [SerializeField] private List<LevelScriptable> _levels;
-    private int numLevel = 0;
-    private List<AestheticType> _bestTypes;
-    private List<AestheticType> _averageTypes;
-    private List<AestheticType> _wrongTypes;
+    [SerializeField] private List<LevelScriptable> _levels; // aquí guardo los 3 levels que hay
+    private int numLevel = 0; // esto quizás se lo pasa gameInit o algo, sino segurament sea uno después de otro pero para poder pausar / salir etc. 
+    private float _score = 0f; // no es un score global, es uno para cada acción 
+    [SerializeField] private float _bestAddToScore = 1f;
+    [SerializeField] private float _averageAddToScore = 0.5f;
+    [SerializeField] private float _wrongAddToScore = -0.5f; 
+    private List<float> _scoresToReach; // 0.todo1 1.todo2 2.todo3
+    private List<List<ActionRes>> _allToDos; 
+
 
     private void Start()
     {
-        // TENGO QUE CAMBIARLO A QUE HAY 3 PUNTUACIONES, quizas dejaria las wrong que sirvan para todas pero las otras dos sí que hacer para cada win condition 
-        _bestTypes = _levels[numLevel].bestTypes;
-        _averageTypes = _levels[numLevel].averageTypes;
-        _wrongTypes = _levels[numLevel].wrongTypes;
+        _scoresToReach = new List<float> {_levels[numLevel].toDo1[0].scoreToReach,  _levels[numLevel].toDo2[0].scoreToReach, _levels[numLevel].toDo3[0].scoreToReach};
+        _allToDos = new List<List<ActionRes>> {_levels[numLevel].toDo1, _levels[numLevel].toDo2, _levels[numLevel].toDo3};
     }
 
     public void DecorPlaced(IPlaceableItem placeableItem)
     {
-        for(int i = 0; i < _bestTypes.Count; i++)
+        foreach(var toDo in _allToDos) // para cada toDo
         {
-            //if(placeableItem.aestheticType == _bestTypes[i])
-
-        }
-
-        
+            CheckItemInAction(placeableItem, toDo);
+        }    
     }
 
     public void DecorErased()
@@ -43,5 +43,33 @@ public class GameManager : MonoBehaviour
         
     }
 
+    private void CheckItemInAction(IPlaceableItem placeableItem, List<ActionRes> toDo)
+    {
+        // bestType
+        for(int i = 0; i < toDo[0].bestTypes.Count; i++) 
+        {
+            if(placeableItem.aestheticType == toDo[0].bestTypes[i])
+            {
+                _score += _bestAddToScore;
+            }
+        }
 
+        // avgType
+        for(int i = 0; i < toDo[0].averageTypes.Count; i++)
+        {
+            if(placeableItem.aestheticType == toDo[0].averageTypes[i])
+            {
+                _score += _averageAddToScore;
+            }
+        }
+
+        // wrongType
+        for(int i = 0; i < toDo[0].wrongTypes.Count; i++)
+        {
+            if(placeableItem.aestheticType == toDo[0].wrongTypes[i])
+            {
+                _score += _wrongAddToScore;
+            }
+        }
+    }
 }
