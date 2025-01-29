@@ -1,11 +1,6 @@
 HACIENDO AHORA:
 - hacer el MODEL
-	- sistema de puntuación:
-		- si colocas un objeto bueno +1
-		- si colocas objeto medio 0.5
-		- si algo malo -0.5	
-
-
+	- es importante que piense en cómo se van a comprobar las acciones en tiempo real digamos
 
 
 3 partidas:
