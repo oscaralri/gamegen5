@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class PlaceableItem : MonoBehaviour, IPlaceableItem
 {
-    public AestheticType aestheticType {get; set; }
+    public Enums.AestheticType aestheticType {get; set; }
     public void OnPointerClick(PointerEventData eventData)
     {
        

@@ -4,8 +4,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ActionRes", menuName = "Scriptable Objects/ActionRes")]
 public class ActionRes : ScriptableObject
 {
-    public List<AestheticType> bestTypes;
-    public List<AestheticType> averageTypes;
-    public List<AestheticType> wrongTypes;
+    public List<Enums.AestheticType> bestTypes;
+    public List<Enums.AestheticType> averageTypes;
+    public List<Enums.AestheticType> wrongTypes;
     public float scoreToReach;
+    public Enums.ActionType actionID; 
 }

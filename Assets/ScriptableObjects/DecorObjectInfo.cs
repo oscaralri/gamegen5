@@ -5,10 +5,9 @@ using UnityEngine.UI;
 public class DecorObjectInfo : ScriptableObject
 {
     public string Name;
-    public DecorType DecorType;
+    public Enums.DecorType DecorType;
     public Sprite Icon;
     public GameObject Prefab;
-    public AestheticType aestheticType; 
+    public Enums.AestheticType aestheticType; 
 }
 
-public enum AestheticType {Sport, Religious, Goth, Cute}

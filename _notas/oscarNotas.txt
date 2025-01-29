@@ -1,6 +1,13 @@
 HACIENDO AHORA:
 - hacer el MODEL
-	- es importante que piense en cómo se van a comprobar las acciones en tiempo real digamos
+	
+	- en el sistema de puntos falta poner que se compruebe que has llegado a x puntos para hacer el todo pero porque eso supongo que lo haré con como defina que se comprueban las acciones
+
+- es importante que piense en cómo se van a comprobar las acciones en tiempo real digamos
+
+- la hora del día será lo que define la comprobación de si hay alguna acción a realizar 
+	- prioridad en acciones:
+		- la que más puntuación tenga ante dos acciones que se realizan a la misma hora
 
 
 3 partidas:

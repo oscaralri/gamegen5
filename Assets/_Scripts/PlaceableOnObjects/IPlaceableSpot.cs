@@ -3,7 +3,7 @@ using UnityEngine;
 
 public interface IPlaceableSpot
 {
-    public SpotType spotType {get; }
+    public Enums.SpotType spotType {get; }
 }
 
-public enum SpotType {Wall, Table}
+

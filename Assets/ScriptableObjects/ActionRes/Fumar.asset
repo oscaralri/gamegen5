@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9309aa9434378b0488c8fde7abfa20a2, type: 3}
   m_Name: Fumar
   m_EditorClassIdentifier: 
-  bestTypes: 
-  averageTypes: 
-  wrongTypes: 
+  bestTypes: 02000000
+  averageTypes: 03000000
+  wrongTypes: 00000000
+  scoreToReach: 0

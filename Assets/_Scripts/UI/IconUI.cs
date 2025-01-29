@@ -7,22 +7,22 @@ using UnityEngine.EventSystems;
 public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public GameObject prefab;
-    public DecorType decorType ; // no seguro de si se usará
+    public Enums.DecorType decorType ; // no seguro de si se usará
     private GameObject _draggedObject;
     private String _sortingLayer = "Always On Top";
-    public List<SpotType> validSpots;
-    public AestheticType aestheticType;
+    public List<Enums.SpotType> validSpots;
+    public Enums.AestheticType aestheticType;
 
     private void Start()
     {
         Debug.Log(prefab);
         switch(decorType)
         {
-            case DecorType.Bed:
-                validSpots = new List<SpotType>{SpotType.Wall};
+            case Enums.DecorType.Bed:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Wall};
                 break;
-            case DecorType.Poster:
-                validSpots = new List<SpotType>{SpotType.Table};
+            case Enums.DecorType.Poster:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
                 for(int i = 0; i < validSpots.Count; i++) Debug.Log(validSpots[i]);
                 break;
             default:
