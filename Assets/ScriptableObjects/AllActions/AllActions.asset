@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9309aa9434378b0488c8fde7abfa20a2, type: 3}
-  m_Name: Fumar
+  m_Script: {fileID: 11500000, guid: b0a7fcbcf1ddfc74ca2f1f3609dc6237, type: 3}
+  m_Name: AllActions
   m_EditorClassIdentifier: 
-  bestTypes: 02000000
-  averageTypes: 03000000
-  wrongTypes: 00000000
-  scoreToReach: 0
-  currentScore: 2
-  actionID: 0
+  allActions:
+  - {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}

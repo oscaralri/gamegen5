@@ -3,6 +3,8 @@ HACIENDO AHORA:
 	
 	- en el sistema de puntos falta poner que se compruebe que has llegado a x puntos para hacer el todo pero porque eso supongo que lo haré con como defina que se comprueban las acciones
 
+	- realmente podria 
+
 - es importante que piense en cómo se van a comprobar las acciones en tiempo real digamos
 
 - la hora del día será lo que define la comprobación de si hay alguna acción a realizar 
@@ -14,6 +16,26 @@ HACIENDO AHORA:
 	- chicx punk/goth
 	- chicx cute/religiosx
 	- santiago segura
+
+
+
+
+
+
+- el clock deberia avisar cuando llega a x horas para que se lancen las comprobaciones, no en el update que se hará todo el rato sin ningún sentido
+	- a las 14:59 (o antes) -> 
+
+- TENGOS IDS DE ACCIONES ACTIVOS
+	- 
+
+- en una lista meter todas las acciones a cada hroa (esto mejor)
+- compruebo si en las acciones activas hay acciones que se ejecuten a esa hora 
+	- si las hay -> ejecutarlas 
+		- puede haber problemas si hay más de una por eso quizás me merece la pena acceder a ActionRes en lugar de solo al tipo para poder hacer el desempate, ahora veo
+
+
+
+
 
 
 

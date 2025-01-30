@@ -17,10 +17,4 @@ public class Clock : MonoBehaviour
 
         clockText.text = string.Format("{0:00}:{1:00}:{2:00}", hours, minutes, seconds);
     }
-
-    // Método para cambiar la velocidad del reloj
-    public void SetTimeSpeed(float newSpeed)
-    {
-        timeSpeed = newSpeed;
-    }
 }
