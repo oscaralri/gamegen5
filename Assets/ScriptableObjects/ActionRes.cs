@@ -8,6 +8,15 @@ public class ActionRes : ScriptableObject
     public List<Enums.AestheticType> averageTypes;
     public List<Enums.AestheticType> wrongTypes;
     public float scoreToReach;
-    public float currentScore = 0f;
+    public float currentScore;
     public Enums.ActionType actionID; 
+    public bool isActive;
+    public AEffectAction effectScriptable;
+    public int time;
+
+    private void OnEnable()
+    {
+        currentScore = 0f;
+        isActive = false;
+    }
 }

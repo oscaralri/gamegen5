@@ -7,6 +7,7 @@ public static class Enums
     public enum ActionType 
     { 
         Smoke, 
+        Run, 
     }
 
     public enum AestheticType 

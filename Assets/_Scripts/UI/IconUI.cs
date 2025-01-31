@@ -15,7 +15,7 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     private void Start()
     {
-        Debug.Log(prefab);
+
         switch(decorType)
         {
             case Enums.DecorType.Bed:
@@ -23,7 +23,6 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
                 break;
             case Enums.DecorType.Poster:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
-                for(int i = 0; i < validSpots.Count; i++) Debug.Log(validSpots[i]);
                 break;
             default:
                 break;
@@ -84,6 +83,9 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         instance.AddComponent<BoxCollider2D>();
         instance.AddComponent<PlaceableItem>();
         instance.GetComponent<PlaceableItem>().aestheticType = aestheticType;
+
+        // cuando se coloca se avisa a gamemanager
+        GameManager.Instance.DecorPlaced(instance.GetComponent<PlaceableItem>());
         
     }
 }

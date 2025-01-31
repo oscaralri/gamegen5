@@ -3,18 +3,25 @@ using UnityEngine;
 
 public class Clock : MonoBehaviour
 {
-    public TextMeshProUGUI clockText;
-    private float currentTimeInSeconds = 0f;  
-    public float timeSpeed = 1f;  
+    [SerializeField] private TextMeshProUGUI clockText;
+    public float currentTimeInSeconds = 0f;
+    public float timeSpeed = 1f;
+    private const int SECONDS_IN_A_DAY = 86400; 
 
-    void FixedUpdate()
+    void Update()
     {
-        currentTimeInSeconds += Time.fixedDeltaTime * timeSpeed;
+        currentTimeInSeconds += Time.deltaTime * timeSpeed;
 
         int hours = Mathf.FloorToInt(currentTimeInSeconds / 3600);
         int minutes = Mathf.FloorToInt((currentTimeInSeconds % 3600) / 60);
-        int seconds = Mathf.FloorToInt(currentTimeInSeconds % 60);
 
-        clockText.text = string.Format("{0:00}:{1:00}:{2:00}", hours, minutes, seconds);
+        clockText.text = $"{hours:00}:{minutes:00}";
+
+        if (currentTimeInSeconds >= SECONDS_IN_A_DAY)
+        {
+            currentTimeInSeconds = 0f;
+        }
+
+        
     }
 }

@@ -27,6 +27,7 @@ public class Bin : MonoBehaviour, IPointerClickHandler
 
                 if (hit.collider != null && hit.collider.gameObject.GetComponent<IPlaceableItem>() != null)
                 {
+                    GameManager.Instance.DecorErased(hit.collider.gameObject.GetComponent<PlaceableItem>());
                     Destroy(hit.collider.gameObject);
                 }
                 else

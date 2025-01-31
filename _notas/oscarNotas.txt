@@ -1,11 +1,9 @@
 HACIENDO AHORA:
 - hacer el MODEL
-	
-	- en el sistema de puntos falta poner que se compruebe que has llegado a x puntos para hacer el todo pero porque eso supongo que lo haré con como defina que se comprueban las acciones
+	- falta representación simulación
+	- acelerar tiempo y parar (estaría bien que se pueda escoger velocidad)
 
-	- realmente podria 
 
-- es importante que piense en cómo se van a comprobar las acciones en tiempo real digamos
 
 - la hora del día será lo que define la comprobación de si hay alguna acción a realizar 
 	- prioridad en acciones:
@@ -49,5 +47,6 @@ HACIENDO AHORA:
 ARREGLOS ALGÚN MOMENTO:
 	- cosas de interacción en ui y raycast que todo esté en capas bien colocadas para que no se compruebe con todo
 	- si al final tengo dos cámaras tengo que estar atento que en cosas como el iconUI se usa camera.main
+	- mecánica cambio color 
 
 

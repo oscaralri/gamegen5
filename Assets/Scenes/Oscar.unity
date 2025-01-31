@@ -543,7 +543,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -728.14014, y: -370.29004}
+  m_AnchoredPosition: {x: -728.1401, y: -370.29004}
   m_SizeDelta: {x: -1456.29, y: -740.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729787863
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -750,7 +750,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clockText: {fileID: 1027085625}
-  timeSpeed: 2
+  currentTimeInSeconds: 0
+  timeSpeed: 5000
 --- !u!1 &1108663999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,10 +1235,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levels:
   - {fileID: 11400000, guid: c28d8d7a60ff8df4b88dd5c098cbaadc, type: 2}
-  _allActions: {fileID: 11400000, guid: b32d475167d09574883a7b05d9a8d77e, type: 2}
+  _allActions: {fileID: 11400000, guid: f8983487b1829f24f9afa894d6ec5c8d, type: 2}
   _bestAddToScore: 1
   _averageAddToScore: 0.5
   _wrongAddToScore: -0.5
+  clock: {fileID: 1027085627}
 --- !u!4 &1216354171
 Transform:
   m_ObjectHideFlags: 0
@@ -1265,6 +1267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8daf0b8e50cc1be4f9b6bab474ae69b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _actionsInTime: {fileID: 11400000, guid: 08ae2e66ff0ec9544b07a388d7f87878, type: 2}
 --- !u!1 &1240059487
 GameObject:
   m_ObjectHideFlags: 0

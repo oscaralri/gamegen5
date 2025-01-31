@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,11 +14,9 @@ public class ActionManager : MonoBehaviour
 
     public static ActionManager Instance;
     
-    private List<Enums.ActionType> _activeActions; // tiene todas las acciones activas 
-    [SerializeField] private ActionsInTime _actionsInTime; //cambiarlo 
-
-    // va a tener que haber una lista con TODAS las acciones
-        // cómo voy a comprobar (al menos) cada vez que se añade un objeto que cumple con alguna condicion de las acciones 
+    private List<ActionRes> _activeActions; // tiene todas las acciones activas 
+    [SerializeField] private ActionsInTime _actionsInTime; // cambiarlo 
+    private float _time;
 
     private void Awake()
     {
@@ -26,34 +25,55 @@ public class ActionManager : MonoBehaviour
 
     private void Start()
     {
-        _activeActions = new List<Enums.ActionType>();
+        _activeActions = new List<ActionRes>();
     }
 
-    public void AddActiveAction(Enums.ActionType actionType)
+    public void AddActiveAction(ActionRes actionRes)
     {
-        _activeActions.Add(actionType);
+        _activeActions.Add(actionRes);
+        ImprimirLista();
     }
 
-    public void RemoveActiveAction(Enums.ActionType actionType)
+    public void RemoveActiveAction(ActionRes actionRes)
     {
-        _activeActions.Remove(actionType);
+        _activeActions.Remove(actionRes);
+        ImprimirLista();
     }
 
     private void Update()
     {
-        //if x hora
-            // comprobar de las acciones activas si tienen esta hora
-                // si empatan quedarte con la que más puntuacion
+        _time = GameManager.Instance.clock.currentTimeInSeconds; 
+        TimeSearch();
+    }
 
-                /*
-        if(hora == 3)
+    private void TimeSearch()
+    {
+        int currentTime = Mathf.FloorToInt(_time / 3600);
+        for(int i = 0; i < _activeActions.Count; i++)
         {
-            foreach(var actionType in _activeActions) // esto me devuelve un id
+            if(_activeActions[i].time == currentTime && _activeActions[i].effectScriptable.isExecuted == false)
             {
-                if(actionType == )
+                _activeActions[i].effectScriptable.isExecuted = true;
+                _activeActions[i].effectScriptable.Execute();
+                StartCoroutine(UnexecuteActions(_activeActions[i]));
             }
         }
-        */
-
     }
+
+    private IEnumerator UnexecuteActions(ActionRes actionRes)
+    {
+        yield return new WaitForSeconds(2f);
+        actionRes.effectScriptable.isExecuted = false;
+    }
+
+    // debug
+    private void ImprimirLista()
+    {
+        for(int i  = 0; i < _activeActions.Count; i++)
+        {
+            Debug.Log("lista en actionManager  " + _activeActions[i]);
+
+        }
+        Debug.Log("----------------------------");
+    } 
 }
