@@ -35,6 +35,25 @@ public class ActionManager : MonoBehaviour
     {
         _time = GameManager.Instance.clock.currentTimeInSeconds; 
         TimeSearch();
+
+        
+    }
+
+    private void CheckWinCon()
+    {
+        int contToWin = 0;
+        for(int i = 0; i < _activeActions.Count; i++)
+        {
+            if(_activeActions[i]  == GameManager.Instance._allToDos[0] || _activeActions[i]  == GameManager.Instance._allToDos[1] || _activeActions[i]  == GameManager.Instance._allToDos[2])
+            {
+                contToWin++;
+            }
+        }
+
+        if(contToWin == 3)
+        {
+            GameManager.Instance.EndLevel();
+        }
     }
 
     private void TimeSearch()
