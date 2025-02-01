@@ -18,4 +18,14 @@ public class PlaceableItem : MonoBehaviour, IPlaceableItem
     {
         
     }
+
+    private void OnEnable()
+    {
+        gameObject.GetComponentInParent<IconUI>().isInScene = true;
+    }
+
+    private void OnDestroy()
+    {
+        gameObject.GetComponentInParent<IconUI>().isInScene = false;
+    }
 }

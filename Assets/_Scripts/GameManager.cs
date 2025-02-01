@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _wrongAddToScore = -0.5f; 
     private List<float> _scoresToReach; // 0.todo1 1.todo2 2.todo3
     private List<List<ActionRes>> _allToDos; 
-    private List<float> _scores;
     private ActionManager _actionManager;
     public Clock clock; 
 
@@ -48,7 +47,6 @@ public class GameManager : MonoBehaviour
 
     public void DecorPlaced(IPlaceableItem placeableItem)
     {
-        Debug.Log("llamado");
         foreach(var action in _allActions.allActions) // esto pasa por todas las acciones posibles en el juego
         {
             AddCheckItemInAction(placeableItem, action);

@@ -5,5 +5,4 @@ public interface IPlaceableItem : IPointerClickHandler, IPointerEnterHandler, IP
     // define interacción de rollo coger, mover, solta blabla
     public Enums.AestheticType aestheticType {get; }
 
-    
 }
