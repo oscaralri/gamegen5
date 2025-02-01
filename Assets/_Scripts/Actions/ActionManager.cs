@@ -4,18 +4,9 @@ using UnityEngine;
 
 public class ActionManager : MonoBehaviour
 {
-    // recibe el objeto que se ha colocado
-    // comprueba si las combinaciones realizan alguna accion
-
-    // el problema es: cada accion necesita x 
-
-    // ESTA CLASE LO QUE QUIERO QUE SE ENCARGUE ES DE TENIENDO LAS ACCIONES ACTIVAS, CUANDO LLEGAN LAS HORAS EN LAS QUE SE ACTIVAN, LLAMAR A LOS EFECTOS CORRESPONDIENTES 
-    //  PARA QUE PASE LO QUE TENGA QUE PASAR CUANDO ESTAN ACTIVAS
-
     public static ActionManager Instance;
     
-    private List<ActionRes> _activeActions; // tiene todas las acciones activas 
-    [SerializeField] private ActionsInTime _actionsInTime; // cambiarlo 
+    private List<ActionRes> _activeActions; 
     private float _time;
 
     private void Awake()
@@ -49,15 +40,25 @@ public class ActionManager : MonoBehaviour
     private void TimeSearch()
     {
         int currentTime = Mathf.FloorToInt(_time / 3600);
+        ActionRes currentAction = null;
+        float lastScore = -1f;
+
         for(int i = 0; i < _activeActions.Count; i++)
         {
-            if(_activeActions[i].time == currentTime && _activeActions[i].effectScriptable.isExecuted == false)
+            if(_activeActions[i].time == currentTime && _activeActions[i].effectScriptable.isExecuted == false && _activeActions[i].currentScore > lastScore)
             {
-                _activeActions[i].effectScriptable.isExecuted = true;
-                _activeActions[i].effectScriptable.Execute();
-                StartCoroutine(UnexecuteActions(_activeActions[i]));
+                lastScore = _activeActions[i].currentScore;
+                currentAction = _activeActions[i];
             }
         }
+
+        if(currentAction != null)
+        {
+            currentAction.effectScriptable.isExecuted = true;
+            currentAction.effectScriptable.Execute();
+            StartCoroutine(UnexecuteActions(currentAction));
+        }
+        
     }
 
     private IEnumerator UnexecuteActions(ActionRes actionRes)
