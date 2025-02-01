@@ -24,7 +24,4 @@ public static class Enums
         Wall, Table
     
     }
-
-
-    
 }

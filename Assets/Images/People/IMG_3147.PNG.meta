@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 08328ba527db0294bbcd731cb397666c
+guid: 5dd4d01f4b5095a4d9ad6400efecddbd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 265802963242414282
-    second: IMG_3076_0
-  - first:
-      213: 2806969300588321960
-    second: IMG_3076_1
+      213: -4822419901981943070
+    second: IMG_3147_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_3076_0
+      name: IMG_3147_0
       rect:
         serializedVersion: 2
-        x: 103
+        x: 118
         y: 0
-        width: 14
-        height: 10
+        width: 1239
+        height: 1698
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac07f44036250b300800000000000000
-      internalID: 265802963242414282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_3076_1
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 0
-        width: 219
-        height: 505
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ac5ef8f4bb54f620800000000000000
-      internalID: 2806969300588321960
+      spriteID: 2ea979046a2531db0800000000000000
+      internalID: -4822419901981943070
       vertices: []
       indices: 
       edges: []
