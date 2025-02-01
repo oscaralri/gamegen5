@@ -1,7 +1,5 @@
 HACIENDO AHORA:
 - hacer el MODEL
-	- falta representación simulación
-	- acelerar tiempo y parar (estaría bien que se pueda escoger velocidad)
 
 
 

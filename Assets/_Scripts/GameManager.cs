@@ -93,7 +93,7 @@ public class GameManager : MonoBehaviour
         if(action.currentScore >= action.scoreToReach && action.isActive == false) 
         {
             Debug.Log("accion ha llegado a scoreReach" + action);
-            _actionManager.AddActiveAction(action); // pasarle al actionamanger la action que se tiene que hacer por llegar al score
+            _actionManager.AddActiveAction(action); 
             action.isActive = true;
         }
     }
@@ -130,7 +130,7 @@ public class GameManager : MonoBehaviour
         if(action.currentScore < action.scoreToReach) 
         {
             Debug.Log("accion " + action);
-            _actionManager.RemoveActiveAction(action); // pasarle al actionamanger la action que se tiene que hacer por llegar al score
+            _actionManager.RemoveActiveAction(action); 
             action.isActive = false;
         }
     }
