@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889069cbdda368846afa1e79a6efee8a, type: 3}
+  m_Name: Drawer
+  m_EditorClassIdentifier: 
+  scriptableObjects:
+  - {fileID: 11400000, guid: c5d7b83ae98387a4995542462b63a944, type: 2}
+  - {fileID: 11400000, guid: a858f55c562ea0a4c8714e758ca082de, type: 2}
+  - {fileID: 11400000, guid: 537be3c54514d2147a1ec505fac00473, type: 2}
+  - {fileID: 11400000, guid: 0999d3173eb0d3c4aa26f3078b275b87, type: 2}
+  - {fileID: 11400000, guid: 6267fac84be8a214690bceee7090d2cf, type: 2}

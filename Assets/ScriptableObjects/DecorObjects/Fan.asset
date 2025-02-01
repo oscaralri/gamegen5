@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Fan
   m_EditorClassIdentifier: 
-  DecorType: 10
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 14
+  Icon: {fileID: 2689205739205157462, guid: 65ddf6edca7423b42b5bc5477998146d, type: 3}
+  Prefab: {fileID: 3495462185811902329, guid: 4ecf4880cb25c9e4daf932c5abfe0dcb, type: 3}
   aestheticType: 9

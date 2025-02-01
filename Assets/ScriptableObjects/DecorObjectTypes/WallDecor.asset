@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889069cbdda368846afa1e79a6efee8a, type: 3}
+  m_Name: WallDecor
+  m_EditorClassIdentifier: 
+  scriptableObjects:
+  - {fileID: 11400000, guid: 73a00de85d39af14e964c242a70a894a, type: 2}
+  - {fileID: 11400000, guid: 4c564c65fbc0d8649bc7449b12e2c5f0, type: 2}
+  - {fileID: 11400000, guid: 4b975a6c087eef34ab0b9db54a6f2d2d, type: 2}
+  - {fileID: 11400000, guid: 0ae4a7dfe98c8ab418bc71a707303000, type: 2}
+  - {fileID: 11400000, guid: 05b1f4966844c1943be50e5084298301, type: 2}
+  - {fileID: 11400000, guid: 585fbeba7dcbe4e45a0fb9b2fbeaf32e, type: 2}
+  - {fileID: 11400000, guid: cb602076bb232734782d8e972a08daab, type: 2}

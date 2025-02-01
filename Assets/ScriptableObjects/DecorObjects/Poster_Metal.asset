@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Poster_Metal
   m_EditorClassIdentifier: 
-  DecorType: 1
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 2
+  Icon: {fileID: -7746146543836170966, guid: 9d53b38a7b08de64d840d56dbf2ed57b, type: 3}
+  Prefab: {fileID: 392135028918545962, guid: 5b4625ac0d2ee514c8a47d6673c95ac3, type: 3}
   aestheticType: 5

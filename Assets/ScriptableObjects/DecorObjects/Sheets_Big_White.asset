@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Sheets_Big_White
   m_EditorClassIdentifier: 
-  DecorType: 1
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 3
+  Icon: {fileID: -4201354866204560920, guid: c0c5c2020ae406d41a7f902af22d66c5, type: 3}
+  Prefab: {fileID: 6136473010788377992, guid: 67670fb97071ea440b0ed61b0f213852, type: 3}
   aestheticType: 8

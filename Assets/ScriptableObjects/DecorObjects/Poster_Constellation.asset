@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Poster_Constellation
   m_EditorClassIdentifier: 
-  DecorType: 1
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
-  aestheticType: 6
+  DecorType: 2
+  Icon: {fileID: 6352357307961764710, guid: b5de410d0a3e51f48b4b21dc166ad779, type: 3}
+  Prefab: {fileID: 8183079011774763507, guid: a0cc8801bbf21ae479579c66a92067b7, type: 3}
+  aestheticType: 7

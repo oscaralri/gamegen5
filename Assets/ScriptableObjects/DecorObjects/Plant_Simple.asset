@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
+  m_Name: Plant_Simple
+  m_EditorClassIdentifier: 
+  DecorType: 12
+  Icon: {fileID: 807439354701675277, guid: bdcec62b120111b4288462e81b7e36bd, type: 3}
+  Prefab: {fileID: 3471803573283843083, guid: 8d1ae814180b52441b05a05eebb1190b, type: 3}
+  aestheticType: 12

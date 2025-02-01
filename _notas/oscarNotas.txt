@@ -8,6 +8,9 @@ FALTA:
 - en la lista de furniture de gamemanager relacionarla bien con IconUI
 
 
+- rosa: 2 scriptable objects
+
+
 3 partidas:
 	- chicx punk/goth
 	- chicx cute/religiosx
@@ -23,3 +26,4 @@ ARREGLOS ALGÚN MOMENTO:
 	- cosas de interacción en ui y raycast que todo esté en capas bien colocadas para que no se compruebe con todo
 
 
+bed chair drawer nighttable shelves table
