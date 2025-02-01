@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Fumar
   m_EditorClassIdentifier: 
   bestTypes: 02000000
-  averageTypes: 03000000
+  averageTypes: 05000000
   wrongTypes: 00000000
-  scoreToReach: 3
-  currentScore: 3
+  scoreToReach: 1
+  currentScore: 0
   actionID: 0
-  isActive: 1
+  isActive: 0
   effectScriptable: {fileID: 11400000, guid: d036425b088014948ba81e4af276b35e, type: 2}
   time: 1

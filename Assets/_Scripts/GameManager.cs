@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _bestAddToScore = 1f;
     [SerializeField] private float _averageAddToScore = 0.5f;
     [SerializeField] private float _wrongAddToScore = -0.5f; 
+    public Bin bin;
     private ActionManager _actionManager;
     public Clock clock; 
     public GameObject[] furniture; // table

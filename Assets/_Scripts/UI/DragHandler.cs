@@ -6,10 +6,12 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public GameObject prefab; 
     private GameObject draggedObject;
     private Canvas canvas; 
+    public GameObject parent;
 
     private void Start()
     {
         canvas = GetComponentInParent<Canvas>(); 
+        parent = GameObject.Find("PlacedObjects");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -47,7 +49,8 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         Ray ray = Camera.main.ScreenPointToRay(eventData.position);
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            Instantiate(prefab, hit.point, Quaternion.identity);
+            GameObject newFurniture = Instantiate(prefab, hit.point, Quaternion.identity);
+            newFurniture.transform.SetParent(parent.transform, true); 
         }
     }
 }

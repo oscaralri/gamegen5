@@ -43,16 +43,9 @@ public class TabGroup : MonoBehaviour
             }
             else pages[i].SetActive(false);
         }
-
-        for(int i = 0; i < pages.Count; i++)
-        {
-            GameObject hijo = transform.GetChild(0).gameObject; 
-            //nietos = 
-        }
-
     }
-/*
-    private List<GameObject> ObtainChild()
+
+    private List<GameObject> ObtainChild(GameObject padre)
     {
         List<GameObject> hijos = new List<GameObject>();
 
@@ -62,7 +55,7 @@ public class TabGroup : MonoBehaviour
         }
 
         return hijos;
-    }*/
+    }
 
     public void ResetTabs()
     {

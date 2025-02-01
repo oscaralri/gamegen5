@@ -972,7 +972,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 297624427
   m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -8827986048235635988, guid: 471a7c998e829cd4f94ce58e4afb4ab5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2979,8 +2979,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -280921733
-  m_SortingLayer: 1
+  m_SortingLayerID: 1307725175
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 882d695923c71764a853119b1f91c620, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3069,6 +3069,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  isErasing: 0
 --- !u!1 &1114947589
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,6 +3543,7 @@ MonoBehaviour:
   _bestAddToScore: 1
   _averageAddToScore: 0.5
   _wrongAddToScore: -0.5
+  bin: {fileID: 1108664003}
   clock: {fileID: 1456523109}
   furniture:
   - {fileID: 904340375}
@@ -3756,6 +3758,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227646577}
   m_CullTransparentMesh: 1
+--- !u!1 &1269017594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269017595}
+  m_Layer: 0
+  m_Name: PlacedObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1269017595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269017594}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.4902704, y: -2.2810595, z: -2.3842523}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1282369339
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,4 +5390,5 @@ SceneRoots:
   - {fileID: 1081733676}
   - {fileID: 1282369340}
   - {fileID: 415493502}
+  - {fileID: 1269017595}
   - {fileID: 245407668}
