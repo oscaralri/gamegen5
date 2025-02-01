@@ -12,10 +12,10 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     private String _sortingLayer = "Always On Top";
     public List<Enums.SpotType> validSpots;
     public Enums.AestheticType aestheticType;
-
+    public bool isInScene = false;
     private void Start()
     {
-        Debug.Log(prefab);
+
         switch(decorType)
         {
             case Enums.DecorType.Bed:
@@ -23,7 +23,6 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
                 break;
             case Enums.DecorType.Poster:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
-                for(int i = 0; i < validSpots.Count; i++) Debug.Log(validSpots[i]);
                 break;
             default:
                 break;
@@ -34,6 +33,7 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if(isInScene == true) return;
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = Mathf.Abs(Camera.main.transform.position.z); 
 
@@ -81,9 +81,13 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         worldPosition = new Vector3(worldPosition.x, worldPosition.y, 1f);
 
         GameObject instance = Instantiate(prefab, worldPosition, Quaternion.identity);
+        instance.transform.SetParent(gameObject.transform);
         instance.AddComponent<BoxCollider2D>();
         instance.AddComponent<PlaceableItem>();
         instance.GetComponent<PlaceableItem>().aestheticType = aestheticType;
+
+        // cuando se coloca se avisa a gamemanager
+        GameManager.Instance.DecorPlaced(instance.GetComponent<PlaceableItem>());
         
     }
 }

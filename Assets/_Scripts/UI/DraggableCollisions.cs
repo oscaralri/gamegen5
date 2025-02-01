@@ -24,7 +24,6 @@ public class DraggableCollisions : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        Debug.Log("OnTriggerExit");
         if(collider.gameObject.GetComponent<IPlaceableSpot>() != null)
         {
             for(int i = 0; i < gameObject.GetComponentInParent<IconUI>().validSpots.Count; i++)
