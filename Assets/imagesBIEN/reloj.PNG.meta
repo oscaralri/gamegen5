@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      reloj_0: -8997582628397930837
+      reloj_1: 3790010198862435623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      abanico_0: 2689205739205157462
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

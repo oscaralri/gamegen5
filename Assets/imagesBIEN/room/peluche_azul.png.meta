@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      peluche_azul_0: 436823416497891409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

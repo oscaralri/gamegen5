@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ropatira_0: 4108295741170392312
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

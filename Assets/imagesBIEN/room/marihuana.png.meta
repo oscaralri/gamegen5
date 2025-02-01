@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      marihuana_0: 6987474620194902890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

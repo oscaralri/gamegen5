@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      papelera_abierta_0: 9184310247187988694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
