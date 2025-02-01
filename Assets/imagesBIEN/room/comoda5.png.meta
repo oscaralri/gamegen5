@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4db2358db4ce1f047b177b6939dc2a29
+guid: ea62f5b8bbddfc347b2951775a3fb23c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7760585820555695175
-    second: IMG_3160_0
+      213: -8512833397926825878
+    second: comoda5_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_3160_0
+      name: comoda5_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1200
-        height: 1800
+        width: 240
+        height: 477
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bb28d4405cdc4490800000000000000
-      internalID: -7760585820555695175
+      spriteID: a607d74a0275cd980800000000000000
+      internalID: -8512833397926825878
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      IMG_3160_0: -7760585820555695175
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

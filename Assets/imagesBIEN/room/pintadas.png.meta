@@ -1,0 +1,4342 @@
+fileFormatVersion: 2
+guid: 6c8bea4a6bfa8c249817797ff47e9f99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3812260307050904119
+    second: pintadas_0
+  - first:
+      213: -1220637803736440001
+    second: pintadas_1
+  - first:
+      213: 1136659212165638456
+    second: pintadas_2
+  - first:
+      213: -3642757330880735855
+    second: pintadas_3
+  - first:
+      213: -664700048670626714
+    second: pintadas_4
+  - first:
+      213: -3925966554855429898
+    second: pintadas_5
+  - first:
+      213: 8374919139179561289
+    second: pintadas_6
+  - first:
+      213: 6668412153617783543
+    second: pintadas_7
+  - first:
+      213: -3445624628389204229
+    second: pintadas_8
+  - first:
+      213: -7143505214567645200
+    second: pintadas_9
+  - first:
+      213: -6455746437554073100
+    second: pintadas_10
+  - first:
+      213: 6606975439686721158
+    second: pintadas_11
+  - first:
+      213: -4582036699861316555
+    second: pintadas_12
+  - first:
+      213: 221141473339048480
+    second: pintadas_13
+  - first:
+      213: -1455890513055502002
+    second: pintadas_14
+  - first:
+      213: 4757135330473462883
+    second: pintadas_15
+  - first:
+      213: 1171646798618113096
+    second: pintadas_16
+  - first:
+      213: 2555558560489577511
+    second: pintadas_17
+  - first:
+      213: -7826719281662306663
+    second: pintadas_18
+  - first:
+      213: -6835919846279382847
+    second: pintadas_19
+  - first:
+      213: 7677935646595600910
+    second: pintadas_20
+  - first:
+      213: 6386920373371730477
+    second: pintadas_21
+  - first:
+      213: -3309268741645087380
+    second: pintadas_22
+  - first:
+      213: 5192787339152900328
+    second: pintadas_23
+  - first:
+      213: -7830354229138632539
+    second: pintadas_24
+  - first:
+      213: 8075976767485604225
+    second: pintadas_25
+  - first:
+      213: -5961403494258467995
+    second: pintadas_26
+  - first:
+      213: -2858664560347116558
+    second: pintadas_27
+  - first:
+      213: -6068684282333689032
+    second: pintadas_28
+  - first:
+      213: -7102792360477684736
+    second: pintadas_29
+  - first:
+      213: -3744242823055986476
+    second: pintadas_30
+  - first:
+      213: 7005418101922725873
+    second: pintadas_31
+  - first:
+      213: -5769251316476905449
+    second: pintadas_32
+  - first:
+      213: -7166555759268791335
+    second: pintadas_33
+  - first:
+      213: -6669410612112568814
+    second: pintadas_34
+  - first:
+      213: -3350780042865185488
+    second: pintadas_35
+  - first:
+      213: -6983349442913773885
+    second: pintadas_36
+  - first:
+      213: -5957927458808230845
+    second: pintadas_37
+  - first:
+      213: 6938937639409741638
+    second: pintadas_38
+  - first:
+      213: -4490988340952267172
+    second: pintadas_39
+  - first:
+      213: -4467254746641014599
+    second: pintadas_40
+  - first:
+      213: -676174633070542740
+    second: pintadas_41
+  - first:
+      213: -2215005903159457603
+    second: pintadas_42
+  - first:
+      213: 5089175749775491915
+    second: pintadas_43
+  - first:
+      213: -2345715604152058556
+    second: pintadas_44
+  - first:
+      213: -3638394779197463623
+    second: pintadas_45
+  - first:
+      213: -6797615665376261007
+    second: pintadas_46
+  - first:
+      213: -4464051260692451059
+    second: pintadas_47
+  - first:
+      213: 7798330991191465253
+    second: pintadas_48
+  - first:
+      213: -2778206219746970382
+    second: pintadas_49
+  - first:
+      213: -779357959728892118
+    second: pintadas_50
+  - first:
+      213: 6933278332666558705
+    second: pintadas_51
+  - first:
+      213: 3277689014821181735
+    second: pintadas_52
+  - first:
+      213: 7233648522379196743
+    second: pintadas_53
+  - first:
+      213: -7826201236402084342
+    second: pintadas_54
+  - first:
+      213: 3306380633969990657
+    second: pintadas_55
+  - first:
+      213: -4170090747357392686
+    second: pintadas_56
+  - first:
+      213: -7200710397643360621
+    second: pintadas_57
+  - first:
+      213: 3804557906000621875
+    second: pintadas_58
+  - first:
+      213: -7855249920590806954
+    second: pintadas_59
+  - first:
+      213: 8081747994098250732
+    second: pintadas_60
+  - first:
+      213: -7500317544287816220
+    second: pintadas_61
+  - first:
+      213: 3208121719992331290
+    second: pintadas_62
+  - first:
+      213: 1441395481464182094
+    second: pintadas_63
+  - first:
+      213: -8656640815923068555
+    second: pintadas_64
+  - first:
+      213: 7037068139111014679
+    second: pintadas_65
+  - first:
+      213: -84456668666254750
+    second: pintadas_66
+  - first:
+      213: -2423006441107252341
+    second: pintadas_67
+  - first:
+      213: -8998490117015988322
+    second: pintadas_68
+  - first:
+      213: 8839716899460791059
+    second: pintadas_69
+  - first:
+      213: -5368887269847948578
+    second: pintadas_70
+  - first:
+      213: 2872155131458468737
+    second: pintadas_71
+  - first:
+      213: 8179406845027131113
+    second: pintadas_72
+  - first:
+      213: -5554072711720356798
+    second: pintadas_73
+  - first:
+      213: -5483974614056781113
+    second: pintadas_74
+  - first:
+      213: 2042371775030980212
+    second: pintadas_75
+  - first:
+      213: -7223694083442939423
+    second: pintadas_76
+  - first:
+      213: 7036214072073581995
+    second: pintadas_77
+  - first:
+      213: 9049705320729553689
+    second: pintadas_78
+  - first:
+      213: -6273881645191820387
+    second: pintadas_79
+  - first:
+      213: -5373477573336757741
+    second: pintadas_80
+  - first:
+      213: 9163652704118984324
+    second: pintadas_81
+  - first:
+      213: -7699316983842491035
+    second: pintadas_82
+  - first:
+      213: 433404006589910431
+    second: pintadas_83
+  - first:
+      213: -1245576322689589682
+    second: pintadas_84
+  - first:
+      213: 7215505735883732353
+    second: pintadas_85
+  - first:
+      213: -2009739719103914927
+    second: pintadas_86
+  - first:
+      213: -6715877752234821364
+    second: pintadas_87
+  - first:
+      213: -3653439227902810163
+    second: pintadas_88
+  - first:
+      213: 971797897658509348
+    second: pintadas_89
+  - first:
+      213: -2593796993268488090
+    second: pintadas_90
+  - first:
+      213: 2020973578150400525
+    second: pintadas_91
+  - first:
+      213: 5649046896030140986
+    second: pintadas_92
+  - first:
+      213: 7406908830263223377
+    second: pintadas_93
+  - first:
+      213: 1773616084126564713
+    second: pintadas_94
+  - first:
+      213: 1770105021070720158
+    second: pintadas_95
+  - first:
+      213: -7167891479472014864
+    second: pintadas_96
+  - first:
+      213: -829010500865097774
+    second: pintadas_97
+  - first:
+      213: -4215298184481472744
+    second: pintadas_98
+  - first:
+      213: 7453077831842745109
+    second: pintadas_99
+  - first:
+      213: -4921184326062440783
+    second: pintadas_100
+  - first:
+      213: 8899809825350392457
+    second: pintadas_101
+  - first:
+      213: -3698866865850049564
+    second: pintadas_102
+  - first:
+      213: -7298638059373779236
+    second: pintadas_103
+  - first:
+      213: 8891428771017511421
+    second: pintadas_104
+  - first:
+      213: 5091786787463877606
+    second: pintadas_105
+  - first:
+      213: -3272493872570597657
+    second: pintadas_106
+  - first:
+      213: 7467167753083506669
+    second: pintadas_107
+  - first:
+      213: -8433693049472475279
+    second: pintadas_108
+  - first:
+      213: -6850791283626219875
+    second: pintadas_109
+  - first:
+      213: 5260270021605339548
+    second: pintadas_110
+  - first:
+      213: 4391296033819874240
+    second: pintadas_111
+  - first:
+      213: 2242578476426145034
+    second: pintadas_112
+  - first:
+      213: 4287504867285926191
+    second: pintadas_113
+  - first:
+      213: 3168498585662287591
+    second: pintadas_114
+  - first:
+      213: 3267434593772395777
+    second: pintadas_115
+  - first:
+      213: 1389441022748812280
+    second: pintadas_116
+  - first:
+      213: 2665133606447168890
+    second: pintadas_117
+  - first:
+      213: 400409158296701144
+    second: pintadas_118
+  - first:
+      213: -6985984963876254269
+    second: pintadas_119
+  - first:
+      213: -3122724992651272870
+    second: pintadas_120
+  - first:
+      213: -413653339081451616
+    second: pintadas_121
+  - first:
+      213: 6348202148203540470
+    second: pintadas_122
+  - first:
+      213: 4920052562451831463
+    second: pintadas_123
+  - first:
+      213: -9202504015339387670
+    second: pintadas_124
+  - first:
+      213: 3569278416257605114
+    second: pintadas_125
+  - first:
+      213: -2563063696290761902
+    second: pintadas_126
+  - first:
+      213: -2468261088544503763
+    second: pintadas_127
+  - first:
+      213: -3183635103349627452
+    second: pintadas_128
+  - first:
+      213: 219678090011174483
+    second: pintadas_129
+  - first:
+      213: 374870720528227696
+    second: pintadas_130
+  - first:
+      213: -1233087240227073116
+    second: pintadas_131
+  - first:
+      213: -6495791580629241703
+    second: pintadas_132
+  - first:
+      213: 7679644226586667467
+    second: pintadas_133
+  - first:
+      213: -5967375500154904460
+    second: pintadas_134
+  - first:
+      213: 4808295452969812359
+    second: pintadas_135
+  - first:
+      213: 6756499847705195493
+    second: pintadas_136
+  - first:
+      213: -2566564188229781413
+    second: pintadas_137
+  - first:
+      213: -2492849418845273552
+    second: pintadas_138
+  - first:
+      213: -123898574291539641
+    second: pintadas_139
+  - first:
+      213: -7397211083511530734
+    second: pintadas_140
+  - first:
+      213: 8506954628706694807
+    second: pintadas_141
+  - first:
+      213: 865575242198371433
+    second: pintadas_142
+  - first:
+      213: -861036991425450473
+    second: pintadas_143
+  - first:
+      213: -4416107178980390548
+    second: pintadas_144
+  - first:
+      213: 5700256440133606370
+    second: pintadas_145
+  - first:
+      213: 6351405835681106047
+    second: pintadas_146
+  - first:
+      213: -8986280591610528338
+    second: pintadas_147
+  - first:
+      213: 2399393366240911745
+    second: pintadas_148
+  - first:
+      213: 4492005513075240682
+    second: pintadas_149
+  - first:
+      213: -9035837244257105647
+    second: pintadas_150
+  - first:
+      213: 2403071234689196854
+    second: pintadas_151
+  - first:
+      213: -5644149422907320880
+    second: pintadas_152
+  - first:
+      213: 8029193153035533815
+    second: pintadas_153
+  - first:
+      213: 7134840212376673132
+    second: pintadas_154
+  - first:
+      213: -6687486793592024503
+    second: pintadas_155
+  - first:
+      213: -8839285556377993347
+    second: pintadas_156
+  - first:
+      213: 4860016363994062976
+    second: pintadas_157
+  - first:
+      213: 6182300433311571595
+    second: pintadas_158
+  - first:
+      213: 9002376122612924394
+    second: pintadas_159
+  - first:
+      213: 9113748314534587725
+    second: pintadas_160
+  - first:
+      213: 2728492871505449142
+    second: pintadas_161
+  - first:
+      213: -4260899138916391594
+    second: pintadas_162
+  - first:
+      213: 3729913543574151168
+    second: pintadas_163
+  - first:
+      213: 7564137684681566598
+    second: pintadas_164
+  - first:
+      213: 602506583882088121
+    second: pintadas_165
+  - first:
+      213: -4437723722848101559
+    second: pintadas_166
+  - first:
+      213: 8643697845157584146
+    second: pintadas_167
+  - first:
+      213: 2096907776760037814
+    second: pintadas_168
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pintadas_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 587
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5c8eee271281bc0800000000000000
+      internalID: -3812260307050904119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 618
+        width: 90
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3360ec726c6f0fe0800000000000000
+      internalID: -1220637803736440001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 614
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839eecbf78936cf00800000000000000
+      internalID: 1136659212165638456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 618
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19557e9f183527dc0800000000000000
+      internalID: -3642757330880735855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 625
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c6dc4d3d286c6f0800000000000000
+      internalID: -664700048670626714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 636
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f827c1183a2489c0800000000000000
+      internalID: -3925966554855429898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 597
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9410b69b590b93470800000000000000
+      internalID: 8374919139179561289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 590
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa1940e585fa8c50800000000000000
+      internalID: 6668412153617783543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 392
+        width: 242
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe268bf7aeae20d0800000000000000
+      internalID: -3445624628389204229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 612
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff7b82fadb2ddc90800000000000000
+      internalID: -7143505214567645200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 608
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1989da1d49866a0800000000000000
+      internalID: -6455746437554073100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_11
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 613
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ed14a3821b0bb50800000000000000
+      internalID: 6606975439686721158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 616
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c86fce5e55960c0800000000000000
+      internalID: -4582036699861316555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 609
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0220b739ff6a11300800000000000000
+      internalID: 221141473339048480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_14
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 612
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e413771ca43abcbe0800000000000000
+      internalID: -1455890513055502002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_15
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 556
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cc451f06db40240800000000000000
+      internalID: 4757135330473462883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 602
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8443bd14e86824010800000000000000
+      internalID: 1171646798618113096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 602
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c90b888fa277320800000000000000
+      internalID: 2555558560489577511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_18
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 601
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99651d3f748e16390800000000000000
+      internalID: -7826719281662306663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_19
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 606
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c879793e1fe121a0800000000000000
+      internalID: -6835919846279382847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_20
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 595
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02d3a78ac18d8a60800000000000000
+      internalID: 7677935646595600910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 603
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2af68f7d36e2a850800000000000000
+      internalID: 6386920373371730477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_22
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 600
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dc0fbdc9d1312d0800000000000000
+      internalID: -3309268741645087380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_23
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 606
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0ca58829c701840800000000000000
+      internalID: 5192787339152900328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_24
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 606
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0d6bac05ef45390800000000000000
+      internalID: -7830354229138632539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_25
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 602
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1817948e412a31070800000000000000
+      internalID: 8075976767485604225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_26
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 607
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b93f95b17d44da0800000000000000
+      internalID: -5961403494258467995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_27
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 598
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb038c6abbf358d0800000000000000
+      internalID: -2858664560347116558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 567
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b01896cc3b7cba0800000000000000
+      internalID: -6068684282333689032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 589
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c8e58faffcd6d90800000000000000
+      internalID: -7102792360477684736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 582
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d031f28df6c90cc0800000000000000
+      internalID: -3744242823055986476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 585
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fff13cb5ae383160800000000000000
+      internalID: 7005418101922725873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_32
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 576
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71870759e708fefa0800000000000000
+      internalID: -5769251316476905449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 561
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbf0c9c1874b8c90800000000000000
+      internalID: -7166555759268791335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_34
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 580
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e4fc3626e7173a0800000000000000
+      internalID: -6669410612112568814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_35
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 579
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d6d80ed43af71d0800000000000000
+      internalID: -3350780042865185488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_36
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 583
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6d3b85ea8261f90800000000000000
+      internalID: -6983349442913773885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_37
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 585
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c803cea80315da0800000000000000
+      internalID: -5957927458808230845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_38
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 591
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fea9bd40f0c4060800000000000000
+      internalID: 6938937639409741638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_39
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 575
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c568e1fe5edcca1c0800000000000000
+      internalID: -4490988340952267172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_40
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 569
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0e849f97f1102c0800000000000000
+      internalID: -4467254746641014599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_41
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 571
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6043b5f0cebd96f0800000000000000
+      internalID: -676174633070542740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_42
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 568
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db889ceddd7b241e0800000000000000
+      internalID: -2215005903159457603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_43
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 565
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4386ec716260a640800000000000000
+      internalID: 5089175749775491915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_44
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 569
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dfc6e0618527fd0800000000000000
+      internalID: -2345715604152058556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_45
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 565
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3ac41b933d18dc0800000000000000
+      internalID: -3638394779197463623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_46
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 562
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c0e9151940aa1a0800000000000000
+      internalID: -6797615665376261007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_47
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 522
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01ba4ba7018c02c0800000000000000
+      internalID: -4464051260692451059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 155
+        width: 215
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d13ea18bc393c60800000000000000
+      internalID: 7798330991191465253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_49
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 551
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f47337a924d179d0800000000000000
+      internalID: -2778206219746970382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_50
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 556
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a277c79901a2f25f0800000000000000
+      internalID: -779357959728892118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_51
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 549
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8b083d8e3f73060800000000000000
+      internalID: 6933278332666558705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_52
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 560
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729dd940bc0bc7d20800000000000000
+      internalID: 3277689014821181735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_53
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 524
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749f07e6105136460800000000000000
+      internalID: 7233648522379196743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_54
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 538
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06e783c07fb36390800000000000000
+      internalID: -7826201236402084342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_55
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 526
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c130c2baf92ed20800000000000000
+      internalID: 3306380633969990657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_56
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 543
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d09e923f8cd026c0800000000000000
+      internalID: -4170090747357392686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_57
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 536
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396710a5b00f11c90800000000000000
+      internalID: -7200710397643360621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_58
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 534
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331329212418cc430800000000000000
+      internalID: 3804557906000621875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_59
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 529
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650054de0db8cf290800000000000000
+      internalID: -7855249920590806954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 530
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3b3705bf2282070800000000000000
+      internalID: 8081747994098250732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_61
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 533
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5381e8ee489e790800000000000000
+      internalID: -7500317544287816220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_62
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 530
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cab5cf4b9858c20800000000000000
+      internalID: 3208121719992331290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_63
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 513
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e459685bd8dd00410800000000000000
+      internalID: 1441395481464182094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_64
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 523
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57102c2fa0f6dd780800000000000000
+      internalID: -8656640815923068555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_65
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 505
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7116ee34030b8a160800000000000000
+      internalID: 7037068139111014679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_66
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 514
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a2c397b13f3def0800000000000000
+      internalID: -84456668666254750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_67
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 523
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b915dba70cf5ed0800000000000000
+      internalID: -2423006441107252341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_68
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 509
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9716642ae0fe1380800000000000000
+      internalID: -8998490117015988322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_69
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 520
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bb06b6fabfcaa70800000000000000
+      internalID: 8839716899460791059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_70
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 511
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2a8914971ed75b0800000000000000
+      internalID: -5368887269847948578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_71
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 507
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb56eefd1fbd720800000000000000
+      internalID: 2872155131458468737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_72
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 501
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee9d3f6037138170800000000000000
+      internalID: 8179406845027131113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_73
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 497
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244b731ab48fbe2b0800000000000000
+      internalID: -5554072711720356798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_74
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 465
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cab2e3d42205e3b0800000000000000
+      internalID: -5483974614056781113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_75
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 500
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e6106fe46f75c10800000000000000
+      internalID: 2042371775030980212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_76
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 502
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9ea4ef08840cb90800000000000000
+      internalID: -7223694083442939423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_77
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 508
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5fc894b67a5a160800000000000000
+      internalID: 7036214072073581995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_78
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 500
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b2c04ba03079d70800000000000000
+      internalID: 9049705320729553689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_79
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 419
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b8f7752e1bee8a0800000000000000
+      internalID: -6273881645191820387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_80
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 496
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a0cb0fd929d65b0800000000000000
+      internalID: -5373477573336757741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_81
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 486
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e4f025595db2f70800000000000000
+      internalID: 9163652704118984324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_82
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 479
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565bfe4fef7862590800000000000000
+      internalID: -7699316983842491035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_83
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 469
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dc501d5a2c30600800000000000000
+      internalID: 433404006589910431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_84
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 470
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e13711fe2d6bee0800000000000000
+      internalID: -1245576322689589682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_85
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 473
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185b426cc30a22460800000000000000
+      internalID: 7215505735883732353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_86
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 456
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c51df9f58fb14e0800000000000000
+      internalID: -2009739719103914927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_87
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 460
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09381f34c86cc2a0800000000000000
+      internalID: -6715877752234821364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_88
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 460
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7206401606c4dc0800000000000000
+      internalID: -3653439227902810163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_89
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 455
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42828630a058c7d00800000000000000
+      internalID: 971797897658509348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_90
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 456
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66861cc806bf00cd0800000000000000
+      internalID: -2593796993268488090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_91
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 463
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02da1203c0fb0c10800000000000000
+      internalID: 2020973578150400525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_92
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 452
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a4665d832756e40800000000000000
+      internalID: 5649046896030140986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_93
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 449
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1542b8f6650aac660800000000000000
+      internalID: 7406908830263223377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_94
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 441
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96188467e662d9810800000000000000
+      internalID: 1773616084126564713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_95
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 445
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c3e04632da09810800000000000000
+      internalID: 1770105021070720158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_96
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 453
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f975813da8868c90800000000000000
+      internalID: -7167891479472014864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_97
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dffddc7753ce74f0800000000000000
+      internalID: -829010500865097774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_98
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 442
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ff1a382a04085c0800000000000000
+      internalID: -4215298184481472744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_99
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 443
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b435accc6ae6760800000000000000
+      internalID: 7453077831842745109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_100
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 440
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bef3d2dde074bbb0800000000000000
+      internalID: -4921184326062440783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_101
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 436
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a9a8802e9728b70800000000000000
+      internalID: 8899809825350392457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_102
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 430
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb9b85de2cfaacc0800000000000000
+      internalID: -3698866865850049564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_103
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 440
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd621e6da5706ba90800000000000000
+      internalID: -7298638059373779236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_104
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 434
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1df22cb53b46b70800000000000000
+      internalID: 8891428771017511421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_105
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 358
+        width: 90
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3dfc21b19a9a640800000000000000
+      internalID: 5091786787463877606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_106
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 433
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee79cb4924c592d0800000000000000
+      internalID: -3272493872570597657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_107
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 398
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def4bc83285b0a760800000000000000
+      internalID: 7467167753083506669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_108
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 420
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f1389ead085fa80800000000000000
+      internalID: -8433693049472475279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_109
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 427
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96ed15ef991de0a0800000000000000
+      internalID: -6850791283626219875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_110
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 419
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c913c6ce6bb300940800000000000000
+      internalID: 5260270021605339548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_111
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 325
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c35a670a7401fc30800000000000000
+      internalID: 4391296033819874240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_112
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 196
+        width: 165
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d215c1e3d3f1f10800000000000000
+      internalID: 2242578476426145034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_113
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 410
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21065be5f6408b30800000000000000
+      internalID: 4287504867285926191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_114
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 386
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee6abd1da4c8fb20800000000000000
+      internalID: 3168498585662287591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_115
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d50a09372485d20800000000000000
+      internalID: 3267434593772395777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_116
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 380
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f36c45af39484310800000000000000
+      internalID: 1389441022748812280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_117
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 361
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d3d3305e47cf420800000000000000
+      internalID: 2665133606447168890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_118
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8861d020a8e8500800000000000000
+      internalID: 400409158296701144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_119
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 370
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd8fed40bbcc0f90800000000000000
+      internalID: -6985984963876254269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_120
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 365
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d59c10a2ad9a4d0800000000000000
+      internalID: -3122724992651272870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_121
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 364
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a755efca78624af0800000000000000
+      internalID: -413653339081451616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_122
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 362
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff2b063838591850800000000000000
+      internalID: 6348202148203540470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_123
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 354
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa113decb9874440800000000000000
+      internalID: 4920052562451831463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_124
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 243
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae40791ea532a4080800000000000000
+      internalID: -9202504015339387670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_125
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 355
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdd0890fcf988130800000000000000
+      internalID: 3569278416257605114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_126
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 349
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253b3edd52b2e6cd0800000000000000
+      internalID: -2563063696290761902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_127
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 328
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28c26c0e99febdd0800000000000000
+      internalID: -2468261088544503763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_128
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 342
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5a16abdb471d3d0800000000000000
+      internalID: -3183635103349627452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_129
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 342
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3566d081f047c0300800000000000000
+      internalID: 219678090011174483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_130
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 311
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d97c52feec33500800000000000000
+      internalID: 374870720528227696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_131
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 322
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3d23d20b133eee0800000000000000
+      internalID: -1233087240227073116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_132
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 286
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990fe9d39ff4ad5a0800000000000000
+      internalID: -6495791580629241703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_133
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 305
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9e31f4cb3939a60800000000000000
+      internalID: 7679644226586667467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_134
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 306
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470e5ef599f9f2da0800000000000000
+      internalID: -5967375500154904460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_135
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 304
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78144613d3f7ab240800000000000000
+      internalID: 4808295452969812359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_136
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 310
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3f27360d8e3cd50800000000000000
+      internalID: 6756499847705195493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_137
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 308
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b583353187bb16cd0800000000000000
+      internalID: -2566564188229781413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_138
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 288
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032403749ae976dd0800000000000000
+      internalID: -2492849418845273552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_139
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 294
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749ec2337e2d74ef0800000000000000
+      internalID: -123898574291539641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_140
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b76be26b3d75990800000000000000
+      internalID: -7397211083511530734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_141
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 293
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7967d6cb926ce0670800000000000000
+      internalID: 8506954628706694807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_142
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 283
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c4b95c814230c00800000000000000
+      internalID: 865575242198371433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_143
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 290
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e6d931b6bfc04f0800000000000000
+      internalID: -861036991425450473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_144
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 265
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6942d21be5d6b2c0800000000000000
+      internalID: -4416107178980390548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_145
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 255
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebdbc2f7016b1f40800000000000000
+      internalID: 5700256440133606370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_146
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 232
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f788d14d4f9b42850800000000000000
+      internalID: 6351405835681106047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_147
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 252
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead311dc9615a4380800000000000000
+      internalID: -8986280591610528338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_148
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 246
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181e737dd8b5c4120800000000000000
+      internalID: 2399393366240911745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_149
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 153
+        width: 80
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee22f7e63fc65e30800000000000000
+      internalID: 4492005513075240682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_150
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1198fc776e14a9280800000000000000
+      internalID: -9035837244257105647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_151
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 219
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633eb915e8c695120800000000000000
+      internalID: 2403071234689196854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_152
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 210
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5126cf004fba1b0800000000000000
+      internalID: -5644149422907320880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_153
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 204
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd7ea7d1ac6d6f60800000000000000
+      internalID: 8029193153035533815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_154
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 209
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b52e30f5b040360800000000000000
+      internalID: 7134840212376673132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_155
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 188
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942d4db61364133a0800000000000000
+      internalID: -6687486793592024503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_156
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 155
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f39d77e9c845580800000000000000
+      internalID: -8839285556377993347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_157
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080a372322f327340800000000000000
+      internalID: 4860016363994062976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_158
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 158
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e97462d71fbc550800000000000000
+      internalID: 6182300433311571595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_159
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef3dca036ddeec70800000000000000
+      internalID: 9002376122612924394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_160
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 136
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d262c2ec98a7e70800000000000000
+      internalID: 9113748314534587725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_161
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 130
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0944a7fcd8dd520800000000000000
+      internalID: 2728492871505449142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_162
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655ee11fece3ed4c0800000000000000
+      internalID: -4260899138916391594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_163
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 92
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000e7af1b9053c330800000000000000
+      internalID: 3729913543574151168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_164
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 55
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689279fc52739f860800000000000000
+      internalID: 7564137684681566598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_165
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 67
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be302bbb888c5800800000000000000
+      internalID: 602506583882088121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_166
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 64
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b905049c90a62c0800000000000000
+      internalID: -4437723722848101559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_167
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d5d66d46594f770800000000000000
+      internalID: 8643697845157584146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pintadas_168
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b149885386b91d10800000000000000
+      internalID: 2096907776760037814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

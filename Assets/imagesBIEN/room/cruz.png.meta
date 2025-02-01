@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9531b86699b833f41a8a787beb93d938
+guid: 9dbfa37bd97ffa8468872b97d97bc7c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1911279184510302633
-    second: IMG_3159_0
+      213: -7780790865189898425
+    second: cruz_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_3159_0
+      name: cruz_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1200
-        height: 1800
+        x: 7
+        y: 8
+        width: 144
+        height: 185
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a9b55bba4a368a10800000000000000
-      internalID: 1911279184510302633
+      spriteID: 74770c8bee3150490800000000000000
+      internalID: -7780790865189898425
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      IMG_3159_0: 1911279184510302633
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
