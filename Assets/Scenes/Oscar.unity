@@ -1240,6 +1240,8 @@ MonoBehaviour:
   _averageAddToScore: 0.5
   _wrongAddToScore: -0.5
   clock: {fileID: 1027085627}
+  furniture:
+  - {fileID: 81635960}
 --- !u!4 &1216354171
 Transform:
   m_ObjectHideFlags: 0
@@ -1267,7 +1269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8daf0b8e50cc1be4f9b6bab474ae69b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _actionsInTime: {fileID: 11400000, guid: 08ae2e66ff0ec9544b07a388d7f87878, type: 2}
 --- !u!1 &1240059487
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,17 +12,17 @@ public static class Enums
 
     public enum AestheticType 
     {
-        Sport, Religious, Goth, Cute
+        Sport, Religious, Goth, Cute, Nerd, Punk, Cozy, Artsy, Boring, Girly, Manly, Smoker, Naturalist, Animalist, Musical, Messy
     }
 
     public enum DecorType 
     {
-        Bed, Poster, Other
+        Table, Floor, Poster, ColorBed, ColorTable, ColorDrawer, ColorChair, ColorShelves, ColorNightTable, Book, Teddy, Plants, Other
     }
 
     public enum SpotType 
     {
-        Wall, Table
+        Wall, Table, Bed, Chair, Drawer, NightTable, Shelves
     
     }
 }

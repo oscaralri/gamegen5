@@ -13,17 +13,49 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public List<Enums.SpotType> validSpots;
     public Enums.AestheticType aestheticType;
     public bool isInScene = false;
+    private bool _isColor = false;
+    private GameObject _furniture;
     private void Start()
     {
 
         switch(decorType)
         {
-            case Enums.DecorType.Bed:
-                validSpots = new List<Enums.SpotType>{Enums.SpotType.Wall};
-                break;
             case Enums.DecorType.Poster:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
                 break;
+
+            // colors 
+            case Enums.DecorType.ColorBed:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Bed};
+                _furniture = GameManager.Instance.furniture[0];
+                _isColor = true;
+                break;
+            case Enums.DecorType.ColorChair:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Chair};
+                _furniture = GameManager.Instance.furniture[1];
+                _isColor = true;
+                break;
+            case Enums.DecorType.ColorDrawer:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Drawer};
+                _furniture = GameManager.Instance.furniture[2];
+                _isColor = true;
+                break;
+            case Enums.DecorType.ColorNightTable:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.NightTable};
+                _furniture = GameManager.Instance.furniture[3];
+                _isColor = true;
+                break;
+            case Enums.DecorType.ColorShelves:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Shelves};
+                _furniture = GameManager.Instance.furniture[4];
+                _isColor = true;
+                break;
+            case Enums.DecorType.ColorTable:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
+                _furniture = GameManager.Instance.furniture[5];
+                _isColor = true;
+                break;
+
             default:
                 break;
 
@@ -34,6 +66,7 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public void OnBeginDrag(PointerEventData eventData)
     {
         if(isInScene == true) return;
+
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = Mathf.Abs(Camera.main.transform.position.z); 
 
@@ -63,18 +96,36 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (_draggedObject != null && _draggedObject.GetComponent<DraggableCollisions>().isPlaceable)
+        if(_draggedObject != null && _draggedObject.GetComponent<DraggableCollisions>().isPlaceable && _isColor == true)
+        {
+            Debug.Log("concha entro");
+            switch(validSpots[0])
+            {
+                case Enums.SpotType.Wall:
+                    if(GameManager.Instance.furniture[0].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
+                    GameManager.Instance.furniture[0].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
+                    break;
+                case Enums.SpotType.Table:
+                    GameManager.Instance.furniture[1].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
+                    if(GameManager.Instance.furniture[1].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
+                    break;
+
+
+                default:
+                    break;
+            }
+
+         
+        }
+        else if (_draggedObject != null && _draggedObject.GetComponent<DraggableCollisions>().isPlaceable)
         {
             PlaceFurnitureInScene(eventData);
         }
-        Destroy(_draggedObject); 
+        Destroy(_draggedObject);
     }
 
     private void PlaceFurnitureInScene(PointerEventData eventData)
     {
-        //Ray ray = Camera.main.ScreenPointToRay(eventData.position);
-        //if (Physics.Raycast(ray, out RaycastHit hit))
-        //{//}
         Vector3 mousePosition = Input.mousePosition; // Coordenadas de pantalla
 
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePosition); // Convertir a coordenadas de mundo

@@ -1,11 +1,11 @@
 HACIENDO AHORA:
-- hacer el MODEL
 
 
-
-- la hora del día será lo que define la comprobación de si hay alguna acción a realizar 
-	- prioridad en acciones:
-		- la que más puntuación tenga ante dos acciones que se realizan a la misma hora
+FALTA:
+- seguramente cuando ya nos pongamos voy a tener que tocar cosas de colliders y que se activen solo algunos dependiendo del objeto
+- cambiar de nivel (numLevel en GameManager)
+- no se está comprobando si están los 3 todos -> simplemente poner un check en actionManager (que tiene las cosas activas) y si se han conseguido los 3 hacer que no se pueda hacer nada hasta que se complete el dia que ya se acaba juego
+- en la lista de furniture de gamemanager relacionarla bien con IconUI
 
 
 3 partidas:
@@ -18,33 +18,8 @@ HACIENDO AHORA:
 
 
 
-- el clock deberia avisar cuando llega a x horas para que se lancen las comprobaciones, no en el update que se hará todo el rato sin ningún sentido
-	- a las 14:59 (o antes) -> 
-
-- TENGOS IDS DE ACCIONES ACTIVOS
-	- 
-
-- en una lista meter todas las acciones a cada hroa (esto mejor)
-- compruebo si en las acciones activas hay acciones que se ejecuten a esa hora 
-	- si las hay -> ejecutarlas 
-		- puede haber problemas si hay más de una por eso quizás me merece la pena acceder a ActionRes en lugar de solo al tipo para poder hacer el desempate, ahora veo
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ARREGLOS ALGÚN MOMENTO:
 	- cosas de interacción en ui y raycast que todo esté en capas bien colocadas para que no se compruebe con todo
-	- si al final tengo dos cámaras tengo que estar atento que en cosas como el iconUI se usa camera.main
-	- mecánica cambio color 
 
 

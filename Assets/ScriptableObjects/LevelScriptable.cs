@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "LevelScriptable", menuName = "Scriptable Objects/LevelScriptable")]
 public class LevelScriptable : ScriptableObject
 {
-    public List<ActionRes> toDo1;
-    public List<ActionRes> toDo2;
-    public List<ActionRes> toDo3;
+    public ActionRes toDo1;
+    public ActionRes toDo2;
+    public ActionRes toDo3;
 }

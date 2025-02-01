@@ -10,22 +10,18 @@ public class GameManager : MonoBehaviour
     // si llegas a los 3 ganas
     // contiene los objetos de una estetica que tiene que haber AestheticType
     // se puede comprobar la win condition cuando se coloca un nuevo objeto (sino update y ya está )
-
-    // AVISOS
-    // cada vez que se coloca un objeto hay que avisarle
-    // cada vez que se elimina un objeto hay que avisarle 
     public static GameManager Instance { get; private set; }
 
     [SerializeField] private List<LevelScriptable> _levels; // aquí guardo los 3 levels que hay
     [SerializeField] private AllActions _allActions;
-    private int numLevel = 0; // esto quizás se lo pasa gameInit o algo, sino segurament sea uno después de otro pero para poder pausar / salir etc. 
+    public List<ActionRes> _allToDos;
+    private int numLevel = 0; 
     [SerializeField] private float _bestAddToScore = 1f;
     [SerializeField] private float _averageAddToScore = 0.5f;
     [SerializeField] private float _wrongAddToScore = -0.5f; 
-    private List<float> _scoresToReach; // 0.todo1 1.todo2 2.todo3
-    private List<List<ActionRes>> _allToDos; 
     private ActionManager _actionManager;
     public Clock clock; 
+    public GameObject[] furniture; // table
 
     private void Awake()
     {
@@ -42,6 +38,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _actionManager = gameObject.GetComponent<ActionManager>(); // se llama para pasarle acciones activas y luego este ya se encarga de ejecutar efectos y tal
+        _allToDos = new List<ActionRes>{_levels[numLevel].toDo1, _levels[numLevel].toDo2, _levels[numLevel].toDo3};
     }
 
 
@@ -132,6 +129,20 @@ public class GameManager : MonoBehaviour
             Debug.Log("accion " + action);
             _actionManager.RemoveActiveAction(action); 
             action.isActive = false;
+        }
+    }
+
+    public void EndLevel()
+    {
+        Cursor.lockState = CursorLockMode.Locked; 
+        Cursor.visible = false;  
+
+        if(clock.currentTimeInSeconds / 3600 == 0)
+        {
+            Debug.Log("end");
+            Cursor.lockState = CursorLockMode.None; 
+            Cursor.visible = true;  
+            // cambiar de escena
         }
     }
 }
