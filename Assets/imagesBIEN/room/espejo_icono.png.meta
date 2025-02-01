@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      espejo_icono_0: -8662417960218051765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

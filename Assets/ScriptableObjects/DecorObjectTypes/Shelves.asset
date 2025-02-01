@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889069cbdda368846afa1e79a6efee8a, type: 3}
+  m_Name: Shelves
+  m_EditorClassIdentifier: 
+  scriptableObjects:
+  - {fileID: 11400000, guid: c46b6a370e2ccd24b99300e40c7f1071, type: 2}
+  - {fileID: 11400000, guid: 743cf716daf1f8946b825e1dd401d79b, type: 2}
+  - {fileID: 11400000, guid: e5f9f2724d7251945a9b59220fe470ca, type: 2}
+  - {fileID: 11400000, guid: d939117ac29a9fe44bcc0e147987c90e, type: 2}
+  - {fileID: 11400000, guid: b38059225f2d34047a0b615c1359e82c, type: 2}
+  - {fileID: 11400000, guid: 5eb9140ecbe1cd3408dd84aec9b5febe, type: 2}

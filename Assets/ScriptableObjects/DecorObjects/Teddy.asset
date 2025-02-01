@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Teddy
   m_EditorClassIdentifier: 
-  DecorType: 4
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 14
+  Icon: {fileID: 6177785512201375906, guid: f5f0f8ca55d00fb479c2a1d9b8d034fa, type: 3}
+  Prefab: {fileID: 3186089288174009779, guid: 596ca5f4f860bd34ca416788d90e9532, type: 3}
   aestheticType: 6

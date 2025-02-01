@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cenicero_0: 3384501587871697772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

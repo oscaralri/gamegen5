@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Ashtray_Empty
   m_EditorClassIdentifier: 
-  DecorType: 11
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 14
+  Icon: {fileID: 3384501587871697772, guid: 7ee8454a5dea61545bc8d9c997fe3d17, type: 3}
+  Prefab: {fileID: 988348951114558731, guid: f816399334131d84d87b510682493af5, type: 3}
   aestheticType: 11

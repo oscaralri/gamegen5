@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Ashtray_Cigar
   m_EditorClassIdentifier: 
-  DecorType: 11
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 14
+  Icon: {fileID: -2282449144855728827, guid: 6012548de6b7f7344a1efe12d738c041, type: 3}
+  Prefab: {fileID: 7711336993482684513, guid: 396c4c8e55dc4c34c91a247fd484b81e, type: 3}
   aestheticType: 11

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: StainedPlates
   m_EditorClassIdentifier: 
-  DecorType: 11
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 14
+  Icon: {fileID: 21300000, guid: 6ca5cf0f1e34cc14a96089560f753a19, type: 3}
+  Prefab: {fileID: 4237539784025027183, guid: a53aa716d3beb244c9f50879f6e2821a, type: 3}
   aestheticType: 15

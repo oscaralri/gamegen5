@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Pills
   m_EditorClassIdentifier: 
-  DecorType: 11
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
-  aestheticType: 8
+  DecorType: 14
+  Icon: {fileID: 2508016761421836727, guid: 367c427a718e30740ad379db7c918a93, type: 3}
+  Prefab: {fileID: 2436163902324485295, guid: 56b62edbbb9f0b440824c9660157f19c, type: 3}
+  aestheticType: 15

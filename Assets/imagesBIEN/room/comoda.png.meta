@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      comoda_0: 6894846492080688704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

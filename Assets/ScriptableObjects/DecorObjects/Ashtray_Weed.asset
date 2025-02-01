@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Ashtray_Weed
   m_EditorClassIdentifier: 
-  DecorType: 11
-  Icon: {fileID: 0}
+  DecorType: 14
+  Icon: {fileID: -8107173305249095418, guid: bf23760258446d3479b85b98ebb00af0, type: 3}
   Prefab: {fileID: 0}
   aestheticType: 11

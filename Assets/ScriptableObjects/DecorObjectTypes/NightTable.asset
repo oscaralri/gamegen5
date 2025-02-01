@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889069cbdda368846afa1e79a6efee8a, type: 3}
+  m_Name: NightTable
+  m_EditorClassIdentifier: 
+  scriptableObjects:
+  - {fileID: 11400000, guid: 30e8523c28c2cce459b8d8d585259c38, type: 2}
+  - {fileID: 11400000, guid: daad029f7d7e836488d74ad5bbbfdbe1, type: 2}
+  - {fileID: 11400000, guid: 92f321fb27e5fa44789c84e150008333, type: 2}
+  - {fileID: 11400000, guid: 9527a33120fdcd140aed2202b0dc5695, type: 2}

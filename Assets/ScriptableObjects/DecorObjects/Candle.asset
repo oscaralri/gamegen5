@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Candle
   m_EditorClassIdentifier: 
-  DecorType: 11
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 14
+  Icon: {fileID: 1909470860442054789, guid: 99428c0cddfb7db49b573dc95ef93cac, type: 3}
+  Prefab: {fileID: 5566863706917865399, guid: 56e0f9c2ca988a945b61085dc7ed0ff9, type: 3}
   aestheticType: 6

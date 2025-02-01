@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889069cbdda368846afa1e79a6efee8a, type: 3}
+  m_Name: Bed
+  m_EditorClassIdentifier: 
+  scriptableObjects:
+  - {fileID: 11400000, guid: d3dc97cef01222b48a7ab1827fee66a4, type: 2}
+  - {fileID: 11400000, guid: 1b04f50c52d2ae541b6b7bc879d2aab4, type: 2}
+  - {fileID: 11400000, guid: 43a4be2f73f909545a3328120ebef1be, type: 2}
+  - {fileID: 11400000, guid: 7427a1e4bbfe6a642a50b1ea2e6efe33, type: 2}
+  - {fileID: 11400000, guid: dc22e2d586d204d46af44691db80c8ba, type: 2}
+  - {fileID: 11400000, guid: 682ad7d04c566d442b596419007493f0, type: 2}
+  - {fileID: 11400000, guid: d3dc97cef01222b48a7ab1827fee66a4, type: 2}
+  - {fileID: 11400000, guid: 1558cded6b0865d45b24765b5e72c308, type: 2}
+  - {fileID: 11400000, guid: dc0050cade7350447b778427c54f31d5, type: 2}
+  - {fileID: 11400000, guid: d3da4eb1b374ec1418a3a6e9008298ae, type: 2}

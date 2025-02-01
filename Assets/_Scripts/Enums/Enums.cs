@@ -17,12 +17,12 @@ public static class Enums
 
     public enum DecorType 
     {
-        Table, Floor, Poster, ColorBed, ColorTable, ColorDrawer, ColorChair, ColorShelves, ColorNightTable, Book, Teddy, Plants, Other
+        Table, Floor, Poster, ColorBed, ColorTable, ColorDrawer, ColorChair, ColorShelves, ColorNightTable, ColorRug, Book, Teddy, Plants, Clothes, Other
     }
 
     public enum SpotType 
     {
-        Wall, Table, Bed, Chair, Drawer, NightTable, Shelves
+        Wall, Table, Bed, Chair, Drawer, NightTable, Shelves, Carpet, Floor
     
     }
 }

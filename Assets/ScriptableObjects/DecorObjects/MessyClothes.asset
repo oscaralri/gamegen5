@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: MessyClothes
   m_EditorClassIdentifier: 
-  DecorType: 0
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 1
+  Icon: {fileID: 4108295741170392312, guid: 185e460f27bed5c4b8b8fbef3ffecef8, type: 3}
+  Prefab: {fileID: 6017234170651275537, guid: 797268cd60765674d869a4ac39186353, type: 3}
   aestheticType: 15

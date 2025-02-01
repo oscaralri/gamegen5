@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alfombra5_0: 8764526027613024356
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

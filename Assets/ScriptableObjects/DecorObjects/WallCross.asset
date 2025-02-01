@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: WallCross
   m_EditorClassIdentifier: 
-  DecorType: 1
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 2
+  Icon: {fileID: -7780790865189898425, guid: 9dbfa37bd97ffa8468872b97d97bc7c1, type: 3}
+  Prefab: {fileID: 4412917917395542367, guid: c6f9d422138ed104ebdc9336d1999ad7, type: 3}
   aestheticType: 1

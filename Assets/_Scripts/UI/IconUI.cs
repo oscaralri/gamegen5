@@ -21,9 +21,32 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         switch(decorType)
         {
             case Enums.DecorType.Poster:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Wall};
+                break;
+            case Enums.DecorType.Table:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
                 break;
-
+            case Enums.DecorType.Floor:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Floor};
+                break;
+            case Enums.DecorType.Book:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Floor, Enums.SpotType.Bed, Enums.SpotType.Carpet, Enums.SpotType.NightTable
+                , Enums.SpotType.Drawer, Enums.SpotType.Table, Enums.SpotType.Shelves};
+                break;
+            case Enums.DecorType.Teddy:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Floor, Enums.SpotType.Bed, Enums.SpotType.Carpet, Enums.SpotType.NightTable
+                , Enums.SpotType.Drawer, Enums.SpotType.Table, Enums.SpotType.Shelves};
+                break;
+            case Enums.DecorType.Plants:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Floor, Enums.SpotType.Table};
+                break;
+            case Enums.DecorType.Clothes:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Shelves};
+                break;
+            case Enums.DecorType.Other:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Floor, Enums.SpotType.Bed, Enums.SpotType.Carpet, Enums.SpotType.NightTable
+                , Enums.SpotType.Drawer, Enums.SpotType.Table, Enums.SpotType.Shelves};
+                break; 
             // colors 
             case Enums.DecorType.ColorBed:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Bed};
@@ -53,6 +76,11 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
             case Enums.DecorType.ColorTable:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
                 _furniture = GameManager.Instance.furniture[5];
+                _isColor = true;
+                break;
+            case Enums.DecorType.ColorRug:
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
+                _furniture = GameManager.Instance.furniture[6];
                 _isColor = true;
                 break;
 
@@ -101,13 +129,33 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
             Debug.Log("concha entro");
             switch(validSpots[0])
             {
-                case Enums.SpotType.Wall:
+                case Enums.SpotType.Bed:
                     if(GameManager.Instance.furniture[0].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
                     GameManager.Instance.furniture[0].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
                     break;
-                case Enums.SpotType.Table:
+                case Enums.SpotType.Chair:
                     GameManager.Instance.furniture[1].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
                     if(GameManager.Instance.furniture[1].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
+                    break;
+                case Enums.SpotType.Drawer:
+                    GameManager.Instance.furniture[2].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
+                    if(GameManager.Instance.furniture[2].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
+                    break;
+                case Enums.SpotType.NightTable:
+                    GameManager.Instance.furniture[3].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
+                    if(GameManager.Instance.furniture[3].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
+                    break;
+                case Enums.SpotType.Shelves:
+                    GameManager.Instance.furniture[4].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
+                    if(GameManager.Instance.furniture[4].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
+                    break;
+                case Enums.SpotType.Table:
+                    GameManager.Instance.furniture[5].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
+                    if(GameManager.Instance.furniture[5].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
+                    break;
+                case Enums.SpotType.Carpet:
+                    GameManager.Instance.furniture[6].GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<SpriteRenderer>().sprite;
+                    if(GameManager.Instance.furniture[6].GetComponent<SpriteRenderer>().sprite == null) Debug.Log("va");
                     break;
 
 

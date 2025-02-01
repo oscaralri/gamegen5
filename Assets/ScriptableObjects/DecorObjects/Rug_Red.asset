@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
+  m_Name: Rug_Red
+  m_EditorClassIdentifier: 
+  DecorType: 9
+  Icon: {fileID: -3376590315816134257, guid: 41b05c657d993274b8b3700641f2f2db, type: 3}
+  Prefab: {fileID: 4504940845945862754, guid: 1c6760e19cb4b6848b7c44cd62db57bb, type: 3}
+  aestheticType: 13

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Sheets_Plain_Faded
   m_EditorClassIdentifier: 
-  DecorType: 1
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
-  aestheticType: 10
+  DecorType: 3
+  Icon: {fileID: 6768973323175645033, guid: fef3fc92bcd96604c8f0bf11da024fca, type: 3}
+  Prefab: {fileID: 8258608575890734658, guid: 7f78dc73f9261bb4689f9ccc14b2283b, type: 3}
+  aestheticType: 15

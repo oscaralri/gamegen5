@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Sheets_Plain_Blue
   m_EditorClassIdentifier: 
-  DecorType: 1
-  Icon: {fileID: 0}
-  Prefab: {fileID: 0}
+  DecorType: 3
+  Icon: {fileID: -558328006040943029, guid: dabe283c3384af642a0b5c1fa0f3a95c, type: 3}
+  Prefab: {fileID: 2388151317861758656, guid: 4ceee1d8554e56b4790687beb477d2f7, type: 3}
   aestheticType: 10

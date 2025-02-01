@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Mirror
   m_EditorClassIdentifier: 
-  DecorType: 1
-  Icon: {fileID: 0}
+  DecorType: 2
+  Icon: {fileID: -4232667464159293515, guid: 2c193bc5943daac4f8c648d5effb2274, type: 3}
   Prefab: {fileID: 0}
   aestheticType: 9

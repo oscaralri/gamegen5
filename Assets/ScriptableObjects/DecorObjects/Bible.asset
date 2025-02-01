@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Bible
   m_EditorClassIdentifier: 
-  DecorType: 3
-  Icon: {fileID: 7851589019345486540, guid: b44494162924dfe47b73da5849c8f90d, type: 3}
-  Prefab: {fileID: 2522124680106179874, guid: 153d5aa5d4bd649458dcdd301081303b, type: 3}
+  DecorType: 10
+  Icon: {fileID: -8114267122579579959, guid: d6f22f07aa1757b4fbba350096972fa4, type: 3}
+  Prefab: {fileID: 2044733585295963746, guid: 12dabef85760c7d438342ed90763b18d, type: 3}
   aestheticType: 1

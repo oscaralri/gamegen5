@@ -28,7 +28,7 @@ public class TabGroup : MonoBehaviour
         ResetTabs();
 
     }
-
+    // pages que es padre -> activor hijo del hijo
     public void OnTabSelected(TableButton button)
     {
         _selectedTab = button;
@@ -37,11 +37,32 @@ public class TabGroup : MonoBehaviour
         int index = button.transform.GetSiblingIndex();
         for(int i = 0; i < pages.Count; i++)
         {
-            if(i == index) pages[i].SetActive(true);
+            if(i == index) 
+            {
+                pages[i].SetActive(true);
+            }
             else pages[i].SetActive(false);
         }
 
+        for(int i = 0; i < pages.Count; i++)
+        {
+            GameObject hijo = transform.GetChild(0).gameObject; 
+            //nietos = 
+        }
+
     }
+/*
+    private List<GameObject> ObtainChild()
+    {
+        List<GameObject> hijos = new List<GameObject>();
+
+        foreach (Transform hijo in padre.transform)
+        {
+            hijos.Add(hijo.gameObject);
+        }
+
+        return hijos;
+    }*/
 
     public void ResetTabs()
     {
