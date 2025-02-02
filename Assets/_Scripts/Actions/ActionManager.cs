@@ -132,7 +132,6 @@ public class ActionManager : MonoBehaviour
         {
             yield return null;
         }
-        Debug.Log("puesto a falso " + actionRes.actionID);
         actionRes.effectScriptable.isExecuted = false;
     }
 

@@ -31,7 +31,7 @@ public class EffectSmokeScriptable : AEffectAction
 
     public override void Execute()
     {
-                SoundManager.Instance.StopSFX();
+        SoundManager.Instance.StopSFX();
 
         Debug.Log("effectSmoke");
         UIManager.Instance.ClearText();

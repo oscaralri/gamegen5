@@ -2930,7 +2930,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4930,7 +4930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levels:
-  - {fileID: 11400000, guid: c28d8d7a60ff8df4b88dd5c098cbaadc, type: 2}
+  - {fileID: 11400000, guid: c2f67a8a7376199469d9f916fa3437fc, type: 2}
   _allActions: {fileID: 11400000, guid: f8983487b1829f24f9afa894d6ec5c8d, type: 2}
   _allToDos: []
   _bestAddToScore: 1

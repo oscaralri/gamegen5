@@ -31,7 +31,7 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
     public void LoadText(List<String> textList)
     {
         i = 0;
-        textToShow = textList;
+        textToShow = new List<string>(textList);
     }
 
     public void ShowText()

@@ -30,8 +30,6 @@ public class OutfitScriptable : AEffectAction
 
     public override void Execute()
     {
-        Debug.Log("effectOutfit");
-        UIManager.Instance.ClearText();
         UIManager.Instance.ChangeOutfit(outfit);
         
     }
