@@ -3882,6 +3882,7 @@ MonoBehaviour:
   - {fileID: 913216211}
   - {fileID: 709163220}
   background: {fileID: 967210412}
+  deactivateOnEnd: []
 --- !u!4 &1216354171
 Transform:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour, IPointerClickHandler
 {
@@ -22,6 +23,12 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
+
+    private void Start()
+    {
+
+    }
+    
 
     public void LoadText(List<String> textList)
     {

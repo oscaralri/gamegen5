@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ActionManager : MonoBehaviour
@@ -43,11 +44,18 @@ public class ActionManager : MonoBehaviour
         int contToWin = 0;
         for(int i = 0; i < _activeActions.Count; i++)
         {
-            if(_activeActions[i]  == GameManager.Instance._allToDos[0] || _activeActions[i]  == GameManager.Instance._allToDos[1] || _activeActions[i]  == GameManager.Instance._allToDos[2])
+            if(_activeActions[i]  == GameManager.Instance._allToDos[0])
             {
                 contToWin++;
             }
+
+            if(_activeActions[i]  == GameManager.Instance._allToDos[1]) contToWin++;
+            
+
+            if(_activeActions[i]  == GameManager.Instance._allToDos[2]);
         }
+
+        Debug.Log("contToWin" + contToWin);
 
         if(contToWin == 3)
         {

@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     public Clock clock; 
     public GameObject[] furniture; // table
     public SpriteRenderer background;
+    public GameObject[] deactivateOnEnd;
 
     private void Awake()
     {
@@ -139,11 +140,17 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;  
 
+        for(int i = 0; i < deactivateOnEnd.Length; i++)
+        {
+            deactivateOnEnd[i].SetActive(false);
+        }
+
         if(clock.currentTimeInSeconds / 3600 == 0)
         {
             Debug.Log("end");
             Cursor.lockState = CursorLockMode.None; 
             Cursor.visible = true;  
+
             // cambiar de escena
         }
     }
