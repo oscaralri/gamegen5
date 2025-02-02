@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7bbd8b639186ad6438553ced0fc43a21
+guid: a305e62c1a9b4b14b9fdb33980fa21db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3327576136541678671
-    second: IMG_3167_0
+      213: -8182229311269896181
+    second: noche_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_3167_0
+      name: noche_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 45
-        width: 1336
-        height: 1764
+        x: 18
+        y: 27
+        width: 1181
+        height: 1759
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b3dd52522312d1d0800000000000000
-      internalID: -3327576136541678671
+      spriteID: b0008feeac1e27e80800000000000000
+      internalID: -8182229311269896181
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      IMG_3167_0: -3327576136541678671
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

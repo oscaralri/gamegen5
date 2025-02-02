@@ -10,7 +10,7 @@ public class PlaceableItem : MonoBehaviour, IPlaceableItem
         Debug.Log("onpointerclick + " + GameManager.Instance.bin.isErasing);
         if(GameManager.Instance.bin.isErasing == true)
         {
-            SceneFalse();
+            //SceneFalse();
             Destroy(gameObject);
         }
     }
@@ -29,19 +29,19 @@ public class PlaceableItem : MonoBehaviour, IPlaceableItem
     {
         gameObject.GetComponentInParent<IconUI>().isInScene = true;
     }
-
+*/
     private void OnDestroy()
     {
         gameObject.GetComponentInParent<IconUI>().isInScene = false;
     }
-*/
+
     public void SceneTrue()
     {
         parent.GetComponent<IconUI>().isInScene = true;
     }
-
+/*
     public void SceneFalse()
     {
         parent.GetComponent<IconUI>().isInScene = false;
-    }
+    }*/
 }

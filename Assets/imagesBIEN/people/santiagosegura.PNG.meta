@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: cc118cc3b789bd741bb7fa6c66d24a1f
+guid: 903ed3b37eefb10499719130af368fe0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8997582628397930837
-    second: reloj_0
-  - first:
-      213: 3790010198862435623
-    second: reloj_1
+      213: 833408466047595132
+    second: IMG_3168_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: reloj_0
+      name: IMG_3168_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 21
-        width: 124
-        height: 179
+        x: 2
+        y: 54
+        width: 1331
+        height: 1607
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba6ad1d454a222380800000000000000
-      internalID: -8997582628397930837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reloj_1
-      rect:
-        serializedVersion: 2
-        x: 122
-        y: 14
-        width: 307
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7259d4e0232d89430800000000000000
-      internalID: 3790010198862435623
+      spriteID: c72f193959cd09b00800000000000000
+      internalID: 833408466047595132
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      reloj_0: -8997582628397930837
-      reloj_1: 3790010198862435623
+      IMG_3168_0: 833408466047595132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
