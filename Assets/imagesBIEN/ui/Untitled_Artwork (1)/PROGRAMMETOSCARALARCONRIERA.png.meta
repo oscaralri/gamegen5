@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: d166ae88b0a20b54c9ea6342795a4a8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1361813419993222715
+    second: PROGRAMMETOSCARALARCONRIERA_0
+  - first:
+      213: -2743836627371952361
+    second: PROGRAMMETOSCARALARCONRIERA_1
+  - first:
+      213: 2002979612300325163
+    second: PROGRAMMETOSCARALARCONRIERA_2
+  - first:
+      213: -7713836840851017450
+    second: PROGRAMMETOSCARALARCONRIERA_3
+  - first:
+      213: -2783369722984536457
+    second: PROGRAMMETOSCARALARCONRIERA_4
+  - first:
+      213: 6259283440384874002
+    second: PROGRAMMETOSCARALARCONRIERA_5
+  - first:
+      213: -8223244695878105355
+    second: PROGRAMMETOSCARALARCONRIERA_6
+  - first:
+      213: 2567707898178285767
+    second: PROGRAMMETOSCARALARCONRIERA_7
+  - first:
+      213: -3591252552744097736
+    second: PROGRAMMETOSCARALARCONRIERA_8
+  - first:
+      213: -7402344920681861884
+    second: PROGRAMMETOSCARALARCONRIERA_9
+  - first:
+      213: 9215600619670545814
+    second: PROGRAMMETOSCARALARCONRIERA_10
+  - first:
+      213: -5778923277264910294
+    second: PROGRAMMETOSCARALARCONRIERA_11
+  - first:
+      213: -3187994549408054329
+    second: PROGRAMMETOSCARALARCONRIERA_12
+  - first:
+      213: 2073491333524350135
+    second: PROGRAMMETOSCARALARCONRIERA_13
+  - first:
+      213: -6270131176953199155
+    second: PROGRAMMETOSCARALARCONRIERA_14
+  - first:
+      213: 6275915771708379508
+    second: PROGRAMMETOSCARALARCONRIERA_15
+  - first:
+      213: 3254558152523357632
+    second: PROGRAMMETOSCARALARCONRIERA_16
+  - first:
+      213: 41143980901028869
+    second: PROGRAMMETOSCARALARCONRIERA_17
+  - first:
+      213: -3074630198339354257
+    second: PROGRAMMETOSCARALARCONRIERA_18
+  - first:
+      213: 1946569245328766840
+    second: PROGRAMMETOSCARALARCONRIERA_19
+  - first:
+      213: -1177168365671329974
+    second: PROGRAMMETOSCARALARCONRIERA_20
+  - first:
+      213: 6181970113524163024
+    second: PROGRAMMETOSCARALARCONRIERA_21
+  - first:
+      213: -8829723749745703608
+    second: PROGRAMMETOSCARALARCONRIERA_22
+  - first:
+      213: 8991684424565399465
+    second: PROGRAMMETOSCARALARCONRIERA_23
+  - first:
+      213: -9003064020138305245
+    second: PROGRAMMETOSCARALARCONRIERA_24
+  - first:
+      213: 719150970522081806
+    second: PROGRAMMETOSCARALARCONRIERA_25
+  - first:
+      213: 4781776274700401014
+    second: PROGRAMMETOSCARALARCONRIERA_26
+  - first:
+      213: 5452558736302594769
+    second: PROGRAMMETOSCARALARCONRIERA_27
+  - first:
+      213: -9000283076276155174
+    second: PROGRAMMETOSCARALARCONRIERA_28
+  - first:
+      213: -8665926202058759927
+    second: PROGRAMMETOSCARALARCONRIERA_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_0
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 268
+        width: 138
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1b1f2e8edd91de0800000000000000
+      internalID: -1361813419993222715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_1
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 266
+        width: 167
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717f9c7ff1febe9d0800000000000000
+      internalID: -2743836627371952361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_2
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 282
+        width: 154
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21b28b58530ccb10800000000000000
+      internalID: 2002979612300325163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_3
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 286
+        width: 173
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611f0cd4342f2f490800000000000000
+      internalID: -7713836840851017450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_4
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 287
+        width: 169
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776edeedbfb7f59d0800000000000000
+      internalID: -2783369722984536457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_5
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 291
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21610ac30217dd650800000000000000
+      internalID: 6259283440384874002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_6
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 288
+        width: 158
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f60219848a21ed80800000000000000
+      internalID: -8223244695878105355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_7
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 305
+        width: 154
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0b1e5aab452a320800000000000000
+      internalID: 2567707898178285767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_8
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 313
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83829fe94de492ec0800000000000000
+      internalID: -3591252552744097736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_9
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 302
+        width: 171
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d27d19386954990800000000000000
+      internalID: -7402344920681861884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 209
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695255fefe364ef70800000000000000
+      internalID: 9215600619670545814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_11
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 93
+        width: 134
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28836ab5e32dcfa0800000000000000
+      internalID: -5778923277264910294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_12
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 104
+        width: 141
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3c6a819d7f1c3d0800000000000000
+      internalID: -3187994549408054329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_13
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 115
+        width: 140
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4e19bc16586cc10800000000000000
+      internalID: 2073491333524350135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_14
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 127
+        width: 144
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc54a964ae40cf8a0800000000000000
+      internalID: -6270131176953199155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_15
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 225
+        width: 65
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47113f4a428881750800000000000000
+      internalID: 6275915771708379508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_16
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 115
+        width: 173
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd910675638a2d20800000000000000
+      internalID: 3254558152523357632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_17
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 115
+        width: 169
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504504e8b3c229000800000000000000
+      internalID: 41143980901028869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_18
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 126
+        width: 37
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f614b4cef18b455d0800000000000000
+      internalID: -3074630198339354257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_19
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 198
+        width: 105
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877758e4a6a930b10800000000000000
+      internalID: 1946569245328766840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_20
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 121
+        width: 135
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f455bbb9bd9afe0800000000000000
+      internalID: -1177168365671329974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_21
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 125
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d160b49015cac550800000000000000
+      internalID: 6181970113524163024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 77
+        width: 144
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845c39f0805867580800000000000000
+      internalID: -8829723749745703608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_23
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 75
+        width: 133
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af12aa1851e8cc70800000000000000
+      internalID: 8991684424565399465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_24
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 87
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3295e8559f0be0380800000000000000
+      internalID: -9003064020138305245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_25
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 76
+        width: 173
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a98d95fffeaf900800000000000000
+      internalID: 719150970522081806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_26
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 72
+        width: 169
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67978e8df284c5240800000000000000
+      internalID: 4781776274700401014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_27
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 95
+        width: 124
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dad44228416bab40800000000000000
+      internalID: 5452558736302594769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_28
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 128
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc89984a32981380800000000000000
+      internalID: -9000283076276155174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROGRAMMETOSCARALARCONRIERA_29
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 114
+        width: 110
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901a98488027cb780800000000000000
+      internalID: -8665926202058759927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROGRAMMETOSCARALARCONRIERA_0: -1361813419993222715
+      PROGRAMMETOSCARALARCONRIERA_1: -2743836627371952361
+      PROGRAMMETOSCARALARCONRIERA_10: 9215600619670545814
+      PROGRAMMETOSCARALARCONRIERA_11: -5778923277264910294
+      PROGRAMMETOSCARALARCONRIERA_12: -3187994549408054329
+      PROGRAMMETOSCARALARCONRIERA_13: 2073491333524350135
+      PROGRAMMETOSCARALARCONRIERA_14: -6270131176953199155
+      PROGRAMMETOSCARALARCONRIERA_15: 6275915771708379508
+      PROGRAMMETOSCARALARCONRIERA_16: 3254558152523357632
+      PROGRAMMETOSCARALARCONRIERA_17: 41143980901028869
+      PROGRAMMETOSCARALARCONRIERA_18: -3074630198339354257
+      PROGRAMMETOSCARALARCONRIERA_19: 1946569245328766840
+      PROGRAMMETOSCARALARCONRIERA_2: 2002979612300325163
+      PROGRAMMETOSCARALARCONRIERA_20: -1177168365671329974
+      PROGRAMMETOSCARALARCONRIERA_21: 6181970113524163024
+      PROGRAMMETOSCARALARCONRIERA_22: -8829723749745703608
+      PROGRAMMETOSCARALARCONRIERA_23: 8991684424565399465
+      PROGRAMMETOSCARALARCONRIERA_24: -9003064020138305245
+      PROGRAMMETOSCARALARCONRIERA_25: 719150970522081806
+      PROGRAMMETOSCARALARCONRIERA_26: 4781776274700401014
+      PROGRAMMETOSCARALARCONRIERA_27: 5452558736302594769
+      PROGRAMMETOSCARALARCONRIERA_28: -9000283076276155174
+      PROGRAMMETOSCARALARCONRIERA_29: -8665926202058759927
+      PROGRAMMETOSCARALARCONRIERA_3: -7713836840851017450
+      PROGRAMMETOSCARALARCONRIERA_4: -2783369722984536457
+      PROGRAMMETOSCARALARCONRIERA_5: 6259283440384874002
+      PROGRAMMETOSCARALARCONRIERA_6: -8223244695878105355
+      PROGRAMMETOSCARALARCONRIERA_7: 2567707898178285767
+      PROGRAMMETOSCARALARCONRIERA_8: -3591252552744097736
+      PROGRAMMETOSCARALARCONRIERA_9: -7402344920681861884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

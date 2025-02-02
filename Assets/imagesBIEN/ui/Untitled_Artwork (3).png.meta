@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 290dd7e686d429447a7b246fae3d9db5
+guid: 2044f0c3b66f7e541a665134e10ee924
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6002072438655990550
-    second: RoomBG_puertaventana_0
+      213: 381891196378272548
+    second: Untitled_Artwork (3)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,13 +40,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RoomBG_puertaventana_0
+      name: Untitled_Artwork (3)_0
       rect:
         serializedVersion: 2
-        x: 204
-        y: 102
-        width: 1641
-        height: 1853
+        x: 0
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61bb0462515ab4350800000000000000
-      internalID: 6002072438655990550
+      spriteID: 423d9fe0500cc4500800000000000000
+      internalID: 381891196378272548
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RoomBG_puertaventana_0: 6002072438655990550
+      Untitled_Artwork (3)_0: 381891196378272548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

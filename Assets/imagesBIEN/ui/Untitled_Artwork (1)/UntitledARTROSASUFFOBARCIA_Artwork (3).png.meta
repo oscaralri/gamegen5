@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 91749379c56770c4f80e0db71c671386
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4395416462239992980
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_0
+  - first:
+      213: 2560458114365226553
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_1
+  - first:
+      213: 6719738036277189293
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_2
+  - first:
+      213: 3854346329792172399
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_3
+  - first:
+      213: 2825803933539477486
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_4
+  - first:
+      213: 8394912280846389269
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_5
+  - first:
+      213: 3004275275144308431
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_6
+  - first:
+      213: -2660741708456827968
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_7
+  - first:
+      213: 7537784972732776666
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_8
+  - first:
+      213: -8869396364411566558
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_9
+  - first:
+      213: 2800007248674489165
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_10
+  - first:
+      213: -3591310018925475352
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_11
+  - first:
+      213: 6909324228662462385
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_12
+  - first:
+      213: -3362251795156118974
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_13
+  - first:
+      213: 4449122310371376209
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_14
+  - first:
+      213: -854775221643506972
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_15
+  - first:
+      213: 8824135232558834251
+    second: UntitledARTROSASUFFOBARCIA_Artwork (3)_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_0
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 286
+        width: 175
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63f748f3085003c0800000000000000
+      internalID: -4395416462239992980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_1
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 286
+        width: 153
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e7101d613988320800000000000000
+      internalID: 2560458114365226553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_2
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 282
+        width: 175
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa9bfb242e414d50800000000000000
+      internalID: 6719738036277189293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_3
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 93
+        width: 150
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61d794d0936d7530800000000000000
+      internalID: 3854346329792172399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_4
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 234
+        width: 83
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7a58fa4b5473720800000000000000
+      internalID: 2825803933539477486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 68
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510d964cd38b08470800000000000000
+      internalID: 8394912280846389269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 92
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc62776027451b920800000000000000
+      internalID: 3004275275144308431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 104
+        width: 182
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c36d5c6385231bd0800000000000000
+      internalID: -2660741708456827968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_8
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 96
+        width: 163
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0c30dee779b9860800000000000000
+      internalID: 7537784972732776666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_9
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 101
+        width: 95
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2268b17aff299e480800000000000000
+      internalID: -8869396364411566558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_10
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 88
+        width: 422
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4303c1f1cf9bd620800000000000000
+      internalID: 2800007248674489165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_11
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 77
+        width: 160
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e945abb09a192ec0800000000000000
+      internalID: -3591310018925475352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_12
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 98
+        width: 152
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b70d6f57c9d2ef50800000000000000
+      internalID: 6909324228662462385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_13
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 85
+        width: 154
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242dc486ec1e651d0800000000000000
+      internalID: -3362251795156118974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_14
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 103
+        width: 146
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c73f73b257ebd30800000000000000
+      internalID: 4449122310371376209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_15
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 107
+        width: 43
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea0227f67a3324f0800000000000000
+      internalID: -854775221643506972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UntitledARTROSASUFFOBARCIA_Artwork (3)_16
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 92
+        width: 171
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42ada2ed30a57a70800000000000000
+      internalID: 8824135232558834251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_0: -4395416462239992980
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_1: 2560458114365226553
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_10: 2800007248674489165
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_11: -3591310018925475352
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_12: 6909324228662462385
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_13: -3362251795156118974
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_14: 4449122310371376209
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_15: -854775221643506972
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_16: 8824135232558834251
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_2: 6719738036277189293
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_3: 3854346329792172399
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_4: 2825803933539477486
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_5: 8394912280846389269
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_6: 3004275275144308431
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_7: -2660741708456827968
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_8: 7537784972732776666
+      UntitledARTROSASUFFOBARCIA_Artwork (3)_9: -8869396364411566558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

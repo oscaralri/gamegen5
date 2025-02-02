@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 290dd7e686d429447a7b246fae3d9db5
+guid: f53a09a15fec09f4bb56fae6f329b9f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6002072438655990550
-    second: RoomBG_puertaventana_0
+      213: -2216159162496844675
+    second: Layer 5_0
+  - first:
+      213: 2495628869158628763
+    second: Layer 5_1
+  - first:
+      213: 1756486289915339121
+    second: Layer 5_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RoomBG_puertaventana_0
+      name: Layer 5_0
       rect:
         serializedVersion: 2
-        x: 204
-        y: 102
-        width: 1641
-        height: 1853
+        x: 0
+        y: 10
+        width: 174
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61bb0462515ab4350800000000000000
-      internalID: 6002072438655990550
+      spriteID: d7cf5a1cbfe9e31e0800000000000000
+      internalID: -2216159162496844675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layer 5_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 349
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9de86deb3142a220800000000000000
+      internalID: 2495628869158628763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layer 5_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 8
+        width: 192
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1716f3379fa406810800000000000000
+      internalID: 1756486289915339121
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RoomBG_puertaventana_0: 6002072438655990550
+      Layer 5_0: -2216159162496844675
+      Layer 5_1: 2495628869158628763
+      Layer 5_2: 1756486289915339121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

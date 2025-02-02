@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _backgroundToChange: {fileID: 0}
   _text: []
-  outfit: {fileID: 833408466047595132, guid: 903ed3b37eefb10499719130af368fe0, type: 3}
+  outfit: {fileID: 21300000, guid: 903ed3b37eefb10499719130af368fe0, type: 3}
