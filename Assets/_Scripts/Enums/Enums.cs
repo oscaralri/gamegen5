@@ -6,7 +6,8 @@ public static class Enums
     
     public enum ActionType 
     { 
-        Smoke, Run, Work, Sleep, WakeUp, ReturnHome
+        Smoke, Run, Work, Sleep, WakeUp, ReturnHome, Knitting, PetCat, Fire, KillSomeone, KissKid, GoChurch, DrinkBeer, Opera, SmokeMonster, Date, PlayVideogames, WaterPlants,
+        Tumblr, DogWalk, Guitar, Yoga, Freestyle
     }
 
     public enum AestheticType 

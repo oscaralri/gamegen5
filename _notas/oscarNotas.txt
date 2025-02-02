@@ -3,9 +3,12 @@ COSAS PRINCIPALES JUEGO:
 	- crear más efectos 
 	- cambio de niveles
 	- añadir sonidos en general
-	- (sonido despertador)
+	- (comer acciones)
+	- (mejoras de acciones):
+		- (cita: 2 personas) 
 	- (+ niveles es lo ultimísimo si ya va todo)
 	
+- METER TODO EN ALLACTIONS
 
 
 	- ejecutar ciertos efectos predefinidos a ciertas horas X
@@ -13,6 +16,9 @@ COSAS PRINCIPALES JUEGO:
 	- comprobación acciones X
 	- ejecutar efectos según hora X
 	- comprobación victoria X
+
+
+00	800	900	1400	
 
 
 

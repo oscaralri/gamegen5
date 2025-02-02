@@ -13,6 +13,7 @@ public class ActionRes : ScriptableObject
     public bool isActive;
     public AEffectAction effectScriptable;
     public int time;
+    public int minutes;
 
     private void OnEnable()
     {

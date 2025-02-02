@@ -68,6 +68,7 @@ public class ActionManager : MonoBehaviour
         }
     }
 
+/*
     private void TimeSearch()
     {
         int currentTime = Mathf.FloorToInt(_time / 3600);
@@ -91,7 +92,35 @@ public class ActionManager : MonoBehaviour
         }
         
     }
+*/
+    private void TimeSearch()
+    {
+        int currentHours = Mathf.FloorToInt(_time / 3600); 
+        int currentMinutes = Mathf.FloorToInt((_time % 3600) / 60); 
 
+        ActionRes currentAction = null;
+        float lastScore = -1f;
+
+        for (int i = 0; i < _activeActions.Count; i++)
+        {
+            if (_activeActions[i].time == currentHours && _activeActions[i].minutes == currentMinutes &&
+                !_activeActions[i].effectScriptable.isExecuted &&
+                _activeActions[i].currentScore > lastScore)
+            {
+                lastScore = _activeActions[i].currentScore;
+                currentAction = _activeActions[i];
+            }
+        }
+
+        if (currentAction != null)
+        {
+            currentAction.effectScriptable.isExecuted = true;
+            currentAction.effectScriptable.Execute();
+            StartCoroutine(UnexecuteActions(currentAction, currentHours));
+        }
+
+
+    }
     private IEnumerator UnexecuteActions(ActionRes actionRes, int executedHour)
     {
         while(Mathf.FloorToInt(_time / 3600) == executedHour)

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_botonestiempo_0: 5595630144724927367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

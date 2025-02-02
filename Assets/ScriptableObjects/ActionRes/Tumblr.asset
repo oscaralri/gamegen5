@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9309aa9434378b0488c8fde7abfa20a2, type: 3}
-  m_Name: Smoke
+  m_Name: Tumblr
   m_EditorClassIdentifier: 
-  bestTypes: 0b000000
-  averageTypes: 050000000f00000002000000
-  wrongTypes: 0000000001000000
+  bestTypes: 0200000009000000
+  averageTypes: 03000000
+  wrongTypes: 0a00000000000000
   scoreToReach: 2
   currentScore: 0
-  actionID: 0
+  actionID: 18
   isActive: 0
-  effectScriptable: {fileID: 11400000, guid: d036425b088014948ba81e4af276b35e, type: 2}
-  time: 12
+  effectScriptable: {fileID: 0}
+  time: 0
+  minutes: 0
