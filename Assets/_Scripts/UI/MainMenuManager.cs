@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class CanvasEntry
@@ -32,5 +33,10 @@ public class MainMenuManager : MonoBehaviour
                 canvas.Value.gameObject.SetActive(false);
             }
         }
+    }
+
+    public void LoadScene(string name)
+    {
+        SceneManager.LoadScene(name);
     }
 }
