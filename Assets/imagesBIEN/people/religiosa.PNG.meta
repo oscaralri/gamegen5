@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 440f30a117c225448836f5b749360e7b
+guid: 8bb2d3011454fc84794250bf1555b379
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7688808140211946293
-    second: bocadillo_0
+      213: -1527162085159593606
+    second: IMG_3166_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bocadillo_0
+      name: IMG_3166_0
       rect:
         serializedVersion: 2
-        x: 88
-        y: 85
-        width: 1040
-        height: 626
+        x: 75
+        y: 45
+        width: 1247
+        height: 1714
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5330777344224ba60800000000000000
-      internalID: 7688808140211946293
+      spriteID: a791e9fbc2e6ecae0800000000000000
+      internalID: -1527162085159593606
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bocadillo_0: 7688808140211946293
+      IMG_3166_0: -1527162085159593606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
