@@ -82,7 +82,7 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
                 _isColor = true;
                 break;
             case Enums.DecorType.ColorRug:
-                validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Carpet};
                 _furniture = GameManager.Instance.furniture[6];
                 _isColor = true;
                 break;

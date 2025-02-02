@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d580cfdb826e3b40bcc9bdb552bfb63, type: 3}
-  m_Name: Level1(Goth)
+  m_Name: LevelSport
   m_EditorClassIdentifier: 
-  toDo1: {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}
-  toDo2: {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}
-  toDo3: {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}
+  toDo1: {fileID: 11400000, guid: 58ec5c587d92b8043903fd9e2785123b, type: 2}
+  toDo2: {fileID: 11400000, guid: 6b40b107d45c74d41a808dec5ece1b69, type: 2}
+  toDo3: {fileID: 11400000, guid: 23e09d5ea22524d43a9cda14ff1b82ce, type: 2}

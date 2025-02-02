@@ -1,6 +1,6 @@
 COSAS PRINCIPALES JUEGO:
-	
-	- crear más efectos 
+	- gestionar outfits
+	- poner cambio de escena al ganar
 	- cambio de niveles
 	- añadir sonidos en general
 	- (comer acciones)
@@ -8,7 +8,6 @@ COSAS PRINCIPALES JUEGO:
 		- (cita: 2 personas) 
 	- (+ niveles es lo ultimísimo si ya va todo)
 	
-- METER TODO EN ALLACTIONS
 
 
 	- ejecutar ciertos efectos predefinidos a ciertas horas X
@@ -17,8 +16,6 @@ COSAS PRINCIPALES JUEGO:
 	- ejecutar efectos según hora X
 	- comprobación victoria X
 
-
-00	800	900	1400	
 
 
 

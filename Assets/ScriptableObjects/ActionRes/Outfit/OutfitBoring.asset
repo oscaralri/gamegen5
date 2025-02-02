@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9309aa9434378b0488c8fde7abfa20a2, type: 3}
+  m_Name: OutfitBoring
+  m_EditorClassIdentifier: 
+  bestTypes: 08000000
+  averageTypes: 0f000000
+  wrongTypes: 0200000003000000040000000500000007000000090000000e000000
+  scoreToReach: 1
+  currentScore: 0
+  actionID: 27
+  isActive: 0
+  effectScriptable: {fileID: 11400000, guid: 37da2f03f80f91b4ca11bdc61c4ab037, type: 2}
+  time: 0
+  minutes: 0
+  isOutfit: 1
