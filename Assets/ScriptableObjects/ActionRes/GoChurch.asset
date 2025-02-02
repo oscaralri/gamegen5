@@ -15,10 +15,11 @@ MonoBehaviour:
   bestTypes: 01000000
   averageTypes: 08000000
   wrongTypes: 0500000002000000
-  scoreToReach: 2
+  scoreToReach: 4
   currentScore: 0
   actionID: 11
   isActive: 0
   effectScriptable: {fileID: 11400000, guid: 5af61e45135044b418bb4f7d2d83bd8d, type: 2}
   time: 20
   minutes: 0
+  isOutfit: 0
