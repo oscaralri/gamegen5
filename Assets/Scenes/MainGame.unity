@@ -342,7 +342,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Faster
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1038,7 +1038,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -280921733
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &358405907
 RectTransform:
@@ -1143,7 +1143,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 364677355}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 943055268}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ChangeSpeed
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &364677355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1617,7 +1629,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 517016830}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 943055268}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PauseResumeSpeed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &517016830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,7 +1835,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -280921733
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &570813539
 RectTransform:
@@ -2519,7 +2543,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Pause/Run
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3510,6 +3534,8 @@ MonoBehaviour:
   textToShow: []
   text: {fileID: 837335521}
   imageSleep: {fileID: 903122889}
+  minTimeSpeed: 15
+  maxTimeSpeed: 4000
 --- !u!114 &943055269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3992,6 +4018,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   isErasing: 0
+  sprites:
+  - {fileID: 21300000, guid: 369b9da3729208a42878332a901f53bb, type: 3}
+  - {fileID: 21300000, guid: 882d695923c71764a853119b1f91c620, type: 3}
 --- !u!1 &1114947589
 GameObject:
   m_ObjectHideFlags: 0
@@ -4435,7 +4464,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1209765652}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 943055268}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ChangeSpeed
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1209765652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6033,7 +6074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Slower
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6649,7 +6690,6 @@ SceneRoots:
   - {fileID: 1205570448}
   - {fileID: 1536850552}
   - {fileID: 1216354171}
-  - {fileID: 570813539}
   - {fileID: 1108664001}
   - {fileID: 1081733676}
   - {fileID: 1282369340}
@@ -6657,3 +6697,4 @@ SceneRoots:
   - {fileID: 1269017595}
   - {fileID: 245407668}
   - {fileID: 358405907}
+  - {fileID: 570813539}

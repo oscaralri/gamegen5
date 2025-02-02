@@ -5,7 +5,7 @@ public class Clock : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI clockText;
     public float currentTimeInSeconds = 0f;
-    public float timeSpeed = 1f;
+    public float timeSpeed;
     private const int SECONDS_IN_A_DAY = 86400; 
 
     void Update()
@@ -23,5 +23,10 @@ public class Clock : MonoBehaviour
         }
 
         
+    }
+
+    private void OnEnable()
+    {
+        timeSpeed = 1000f;
     }
 }
