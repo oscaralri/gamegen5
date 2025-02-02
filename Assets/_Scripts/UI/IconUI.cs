@@ -175,6 +175,7 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
             foreach(Transform child in parent.transform)
             {
+                GameManager.Instance.DecorErased(child.GetComponent<PlaceableItem>());
                 Destroy(child.gameObject);
             }
 
