@@ -35,7 +35,7 @@ public class EffectScriptableSleep : AEffectAction
         LoadImage();
         LoadText();
         Color color = UIManager.Instance.imageSleep.color; 
-        color.a = Mathf.Clamp01(0.5f); 
+        color.a = 0.9f; 
         UIManager.Instance.imageSleep.color = color; 
         foreach(string name in audioClip)
         {
