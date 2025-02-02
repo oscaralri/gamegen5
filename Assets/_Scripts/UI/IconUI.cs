@@ -15,8 +15,11 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public bool isInScene = false;
     private bool _isColor = false;
     private GameObject _furniture;
+    public GameObject parent;
     private void Start()
     {
+
+        parent = GameObject.Find("PlacedObjects");
 
         switch(decorType)
         {
@@ -162,8 +165,15 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
                 default:
                     break;
             }
+            GameObject instance = Instantiate(prefab, new Vector3(0f, 0f, -50f), Quaternion.identity);
+            instance.transform.SetParent(parent.transform);
+            instance.AddComponent<BoxCollider2D>();
+            instance.AddComponent<PlaceableItem>();
+            instance.GetComponent<PlaceableItem>().aestheticType = aestheticType;
+            instance.GetComponent<PlaceableItem>().parent = gameObject;
+            instance.GetComponent<PlaceableItem>().SceneTrue();
 
-         
+            GameManager.Instance.DecorPlaced(instance.GetComponent<PlaceableItem>());
         }
         else if (_draggedObject != null && _draggedObject.GetComponent<DraggableCollisions>().isPlaceable)
         {
@@ -180,10 +190,12 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         worldPosition = new Vector3(worldPosition.x, worldPosition.y, 1f);
 
         GameObject instance = Instantiate(prefab, worldPosition, Quaternion.identity);
-        instance.transform.SetParent(gameObject.transform);
+        instance.transform.SetParent(parent.transform);
         instance.AddComponent<BoxCollider2D>();
         instance.AddComponent<PlaceableItem>();
         instance.GetComponent<PlaceableItem>().aestheticType = aestheticType;
+        instance.GetComponent<PlaceableItem>().parent = gameObject;
+        instance.GetComponent<PlaceableItem>().SceneTrue();
 
         // cuando se coloca se avisa a gamemanager
         GameManager.Instance.DecorPlaced(instance.GetComponent<PlaceableItem>());

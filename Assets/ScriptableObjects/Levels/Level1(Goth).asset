@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d580cfdb826e3b40bcc9bdb552bfb63, type: 3}
   m_Name: Level1(Goth)
   m_EditorClassIdentifier: 
-  toDo1:
-  - {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}
-  toDo2: []
-  toDo3: []
+  toDo1: {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}
+  toDo2: {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}
+  toDo3: {fileID: 11400000, guid: c3fc077089791b545bc606784cbe0ed8, type: 2}

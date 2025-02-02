@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ActionManager : MonoBehaviour
 {
     public static ActionManager Instance;
+    public List<ActionRes> actionsToAdd;
     
-    private List<ActionRes> _activeActions; 
+    public List<ActionRes> _activeActions; 
     private float _time;
 
     private void Awake()
@@ -17,6 +19,10 @@ public class ActionManager : MonoBehaviour
     private void Start()
     {
         _activeActions = new List<ActionRes>();
+        for(int i = 0; i < actionsToAdd.Count; i++)
+        {
+            _activeActions.Add(actionsToAdd[i]);
+        }
     }
 
     public void AddActiveAction(ActionRes actionRes)
@@ -35,8 +41,7 @@ public class ActionManager : MonoBehaviour
     {
         _time = GameManager.Instance.clock.currentTimeInSeconds; 
         TimeSearch();
-
-        
+        CheckWinCon();
     }
 
     private void CheckWinCon()
@@ -44,11 +49,18 @@ public class ActionManager : MonoBehaviour
         int contToWin = 0;
         for(int i = 0; i < _activeActions.Count; i++)
         {
-            if(_activeActions[i]  == GameManager.Instance._allToDos[0] || _activeActions[i]  == GameManager.Instance._allToDos[1] || _activeActions[i]  == GameManager.Instance._allToDos[2])
+            // ESTÁ ASÍ POR DEBUG
+            if(_activeActions[i]  == GameManager.Instance._allToDos[0])
             {
                 contToWin++;
             }
+
+            if(_activeActions[i]  == GameManager.Instance._allToDos[1]) contToWin++;
+            
+
+            if(_activeActions[i]  == GameManager.Instance._allToDos[2]) contToWin++;
         }
+
 
         if(contToWin == 3)
         {
@@ -75,14 +87,18 @@ public class ActionManager : MonoBehaviour
         {
             currentAction.effectScriptable.isExecuted = true;
             currentAction.effectScriptable.Execute();
-            StartCoroutine(UnexecuteActions(currentAction));
+            StartCoroutine(UnexecuteActions(currentAction, currentTime));
         }
         
     }
 
-    private IEnumerator UnexecuteActions(ActionRes actionRes)
+    private IEnumerator UnexecuteActions(ActionRes actionRes, int executedHour)
     {
-        yield return new WaitForSeconds(2f);
+        while(Mathf.FloorToInt(_time / 3600) == executedHour)
+        {
+            yield return new WaitForSeconds(1f);
+        }
+        Debug.Log("puesto a falso " + actionRes.actionID);
         actionRes.effectScriptable.isExecuted = false;
     }
 

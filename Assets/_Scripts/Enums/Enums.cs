@@ -6,8 +6,7 @@ public static class Enums
     
     public enum ActionType 
     { 
-        Smoke, 
-        Run, 
+        Smoke, Run, Work, Sleep, WakeUp, ReturnHome
     }
 
     public enum AestheticType 
