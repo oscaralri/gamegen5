@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e273a7c546a5840829647fa972ac8e, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Alarm
+    clip: {fileID: 8300000, guid: c6360e747e465f04db57f41fabb8ab58, type: 3}
+  - name: AnkaraMessi
+    clip: {fileID: 8300000, guid: a47420f0cc17e27448254a17bc8d870e, type: 3}
+  - name: Cat
+    clip: {fileID: 8300000, guid: cd1e222a3bd7f5f4095941c12b5a04c6, type: 3}
+  - name: Cigar
+    clip: {fileID: 8300000, guid: 96c2044e5491a954bb301c9c401fa8e4, type: 3}
+  - name: Run
+    clip: {fileID: 8300000, guid: e1166d97a4623a647af2c2f54e013a92, type: 3}
+  - name: Knife
+    clip: {fileID: 8300000, guid: a06cc97b2383b61469ff526cadfcdb9a, type: 3}
+  - name: Guitar
+    clip: {fileID: 8300000, guid: 56dc761a32b7cd347a750014b2b4d00f, type: 3}
+  - name: Book
+    clip: {fileID: 8300000, guid: 919a23e70f2df554399e21cc73dd75d5, type: 3}
+  - name: Videogames
+    clip: {fileID: 8300000, guid: c17361c224c7dd648bb46936aff8ed3d, type: 3}
+  - name: Videogames
+    clip: {fileID: 8300000, guid: c17361c224c7dd648bb46936aff8ed3d, type: 3}
+  - name: Opera
+    clip: {fileID: 8300000, guid: fcb129cef7208104aa1a10e2f823ebce, type: 3}
+  - name: Park
+    clip: {fileID: 8300000, guid: 06548643161f83f46bb71d96f9b3f93b, type: 3}
+  - name: Dog
+    clip: {fileID: 8300000, guid: 3df1f083b64a5b247bde467d0aef8444, type: 3}
+  - name: Gun
+    clip: {fileID: 8300000, guid: a4f046a64ce0a2b46a19826937a3a32f, type: 3}
+  - name: VideogameSounds
+    clip: {fileID: 8300000, guid: e3cd00b1383e1974f856b34e6f425103, type: 3}
+  - name: Music
+    clip: {fileID: 8300000, guid: c697740a2d713cc459db8240cad0631e, type: 3}
+  - name: Beer
+    clip: {fileID: 8300000, guid: 3744a5be465c6054193cc27d87c39796, type: 3}
+  - name: Fire
+    clip: {fileID: 8300000, guid: 764f3f9256aa27b45bcc3c187e1826cc, type: 3}
+  - name: Freestyle
+    clip: {fileID: 8300000, guid: 1401ad4b9b797644e93d55434f8dbeda, type: 3}
+  - name: Pray
+    clip: {fileID: 8300000, guid: 016049fae7fe75444bb9e790f8dc4027, type: 3}
+  - name: Door
+    clip: {fileID: 8300000, guid: 8daccb8cba7f35f4b8088b6b691d53c0, type: 3}
+  - name: Lamp
+    clip: {fileID: 8300000, guid: f7705cfa6918b824d96cc1bccf3ed04c, type: 3}
+  - name: WaterPlant
+    clip: {fileID: 8300000, guid: 1ec37adfd976f60479e956e3ae7ec1e4, type: 3}

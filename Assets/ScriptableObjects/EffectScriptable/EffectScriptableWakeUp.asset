@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4023dbc3dc1b6334fb7652b7fd70dc1f, type: 3}
   m_Name: EffectScriptableWakeUp
   m_EditorClassIdentifier: 
+  _isExecuted: 0
+  audioClip:
+  - Lamp
+  - Alarm
   _backgroundToChange: {fileID: 0}
   _text: []

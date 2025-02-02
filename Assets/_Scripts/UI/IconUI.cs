@@ -90,7 +90,7 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
             case Enums.DecorType.ColorRug:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Carpet};
                 _furniture = GameManager.Instance.furniture[6];
-                parent = GameObject.Find("ColorCarpetObjects");
+                parent = GameObject.Find("ColorCarpet");
                 _isColor = true;
                 break;
 
@@ -175,6 +175,7 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
             foreach(Transform child in parent.transform)
             {
+                GameManager.Instance.DecorErased(child.GetComponent<PlaceableItem>());
                 Destroy(child.gameObject);
             }
 

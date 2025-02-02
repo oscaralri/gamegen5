@@ -100,20 +100,22 @@ public class ActionManager : MonoBehaviour
 
         ActionRes currentAction = null;
         float lastScore = -1f;
+        float lastScoreOutfit = -1f;
 
         for (int i = 0; i < _activeActions.Count; i++)
         {
             // para el outfit
-            if(_activeActions[i].isOutfit)
+            if(_activeActions[i].isOutfit && _activeActions[i].currentScore > lastScoreOutfit)
             {
+                lastScoreOutfit = _activeActions[i].currentScore;
+
                 _activeActions[i].effectScriptable.isExecuted = true;
                 _activeActions[i].effectScriptable.Execute();
                 StartCoroutine(UnexecuteActions(_activeActions[i], currentHours));
             }
             // resto
             else if (_activeActions[i].time == currentHours && _activeActions[i].minutes == currentMinutes &&
-                !_activeActions[i].effectScriptable.isExecuted &&
-                _activeActions[i].currentScore > lastScore)
+                !_activeActions[i].effectScriptable.isExecuted && _activeActions[i].currentScore > lastScore)
             {
                 lastScore = _activeActions[i].currentScore;
                 currentAction = _activeActions[i];
@@ -131,9 +133,8 @@ public class ActionManager : MonoBehaviour
     {
         while(Mathf.FloorToInt(_time / 3600) == executedHour)
         {
-            yield return new WaitForSeconds(1f);
+            yield return null;
         }
-        Debug.Log("puesto a falso " + actionRes.actionID);
         actionRes.effectScriptable.isExecuted = false;
     }
 

@@ -18,3 +18,5 @@ MonoBehaviour:
   - "El aire del parque, el ruido de los p\xE1jaros, otra gente corriendo..."
   - El ruido de los coches...
   - 
+  audioClip:
+  - Run

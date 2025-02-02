@@ -6,7 +6,7 @@ using UnityEngine;
 public class EffectScriptableSleep : AEffectAction
 {
     public override bool isExecuted {get; set;}
-    
+    public List<string> audioClip;
     public Sprite _backgroundToChange;
     public List<String> _text;
 
@@ -29,10 +29,17 @@ public class EffectScriptableSleep : AEffectAction
 
     public override void Execute()
     {
+        SoundManager.Instance.StopSFX();
         Debug.Log("effectsleep");
         UIManager.Instance.ClearText();
         LoadImage();
         LoadText();
-        UIManager.Instance.imageSleep.gameObject.SetActive(true);
+        Color color = UIManager.Instance.imageSleep.color; 
+        color.a = 0.9f; 
+        UIManager.Instance.imageSleep.color = color; 
+        foreach(string name in audioClip)
+        {
+            SoundManager.Instance.PlaySFX(name);
+        }
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class EffectScriptableWork : AEffectAction
 {
     public override bool isExecuted {get; set;}
-    
+    public List<string> audioClip;
     public Sprite _backgroundToChange;
     public List<String> _text;
 
@@ -28,9 +28,15 @@ public class EffectScriptableWork : AEffectAction
     }
 
     public override void Execute()
-    {
+    {        
+        SoundManager.Instance.StopSFX();
+
         Debug.Log("effectWork");
         UIManager.Instance.ClearText();
         LoadImage();
+        foreach(string name in audioClip)
+        {
+            SoundManager.Instance.PlaySFX(name);
+        }
     }
 }

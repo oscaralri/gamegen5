@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -146,7 +147,7 @@ public class GameManager : MonoBehaviour
         if(clock.currentTimeInSeconds / 3600 == 0 && alreadyEnd == true)
         {
             Debug.Log("end");
-            // cambiar de escena
+            SceneManager.LoadScene("Menu");
         }
         else if(clock.currentTimeInSeconds / 3600 == 0 && alreadyEnd != true)
         {

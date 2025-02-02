@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d60ae928cf660040ac24b4b0e79409a, type: 3}
   m_Name: EffectScriptableReturnHome
   m_EditorClassIdentifier: 
+  audioClip:
+  - Door
   _backgroundToChange: {fileID: -8070283000936406445, guid: e24819a267ee1004ba1b16b1cc3e2dea, type: 3}
   _text: []
