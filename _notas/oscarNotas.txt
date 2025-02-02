@@ -1,5 +1,5 @@
 COSAS PRINCIPALES JUEGO:
-	- gestionar outfits
+	- cambiar floor
 	- poner cambio de escena al ganar
 	- cambio de niveles
 	- añadir sonidos en general
@@ -8,6 +8,9 @@ COSAS PRINCIPALES JUEGO:
 		- (cita: 2 personas) 
 	- (+ niveles es lo ultimísimo si ya va todo)
 	
+
+- bugs:
+	- no puedes volver a poner un objeto que ya has puesto
 
 
 	- ejecutar ciertos efectos predefinidos a ciertas horas X
