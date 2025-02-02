@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] furniture; // table
     public SpriteRenderer background;
     public GameObject[] deactivateOnEnd;
+    private bool alreadyEnd = false;
 
     private void Awake()
     {
@@ -137,21 +138,19 @@ public class GameManager : MonoBehaviour
 
     public void EndLevel()
     {
-        Cursor.lockState = CursorLockMode.Locked; 
-        Cursor.visible = false;  
-
         for(int i = 0; i < deactivateOnEnd.Length; i++)
         {
             deactivateOnEnd[i].SetActive(false);
         }
 
-        if(clock.currentTimeInSeconds / 3600 == 0)
+        if(clock.currentTimeInSeconds / 3600 == 0 && alreadyEnd == true)
         {
             Debug.Log("end");
-            Cursor.lockState = CursorLockMode.None; 
-            Cursor.visible = true;  
-
             // cambiar de escena
+        }
+        else if(clock.currentTimeInSeconds / 3600 == 0 && alreadyEnd != true)
+        {
+            alreadyEnd = true;
         }
     }
 }

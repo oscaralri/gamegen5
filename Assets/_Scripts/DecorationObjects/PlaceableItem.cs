@@ -24,7 +24,7 @@ public class PlaceableItem : MonoBehaviour, IPlaceableItem
     {
         
     }
-/*
+    /*
     private void OnEnable()
     {
         gameObject.GetComponentInParent<IconUI>().isInScene = true;
@@ -32,9 +32,9 @@ public class PlaceableItem : MonoBehaviour, IPlaceableItem
 */
     private void OnDestroy()
     {
-        gameObject.GetComponentInParent<IconUI>().isInScene = false;
+        parent.GetComponentInParent<IconUI>().isInScene = false;
     }
-
+    
     public void SceneTrue()
     {
         parent.GetComponent<IconUI>().isInScene = true;
@@ -43,5 +43,6 @@ public class PlaceableItem : MonoBehaviour, IPlaceableItem
     public void SceneFalse()
     {
         parent.GetComponent<IconUI>().isInScene = false;
-    }*/
+    }
+    */
 }

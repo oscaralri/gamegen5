@@ -55,35 +55,42 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Bed};
                 _furniture = GameManager.Instance.furniture[0];
                 _isColor = true;
+                parent = GameObject.Find("ColorBedObjects");
                 break;
             case Enums.DecorType.ColorChair:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Chair};
                 _furniture = GameManager.Instance.furniture[1];
+                parent = GameObject.Find("ColorChairObjects");
                 _isColor = true;
                 break;
             case Enums.DecorType.ColorDrawer:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Drawer};
                 _furniture = GameManager.Instance.furniture[2];
+                parent = GameObject.Find("ColorDrawerObjects");
                 _isColor = true;
                 break;
             case Enums.DecorType.ColorNightTable:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.NightTable};
                 _furniture = GameManager.Instance.furniture[3];
+                parent = GameObject.Find("ColorNightTable");
                 _isColor = true;
                 break;
             case Enums.DecorType.ColorShelves:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Shelves};
                 _furniture = GameManager.Instance.furniture[4];
+                parent = GameObject.Find("ColorShelvesObjects");
                 _isColor = true;
                 break;
             case Enums.DecorType.ColorTable:
                 validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
                 _furniture = GameManager.Instance.furniture[5];
+                parent = GameObject.Find("ColorTableObjects");
                 _isColor = true;
                 break;
             case Enums.DecorType.ColorRug:
-                validSpots = new List<Enums.SpotType>{Enums.SpotType.Table};
+                validSpots = new List<Enums.SpotType>{Enums.SpotType.Carpet};
                 _furniture = GameManager.Instance.furniture[6];
+                parent = GameObject.Find("ColorCarpetObjects");
                 _isColor = true;
                 break;
 
@@ -165,6 +172,12 @@ public class IconUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
                 default:
                     break;
             }
+
+            foreach(Transform child in parent.transform)
+            {
+                Destroy(child.gameObject);
+            }
+
             GameObject instance = Instantiate(prefab, new Vector3(0f, 0f, -50f), Quaternion.identity);
             instance.transform.SetParent(parent.transform);
             instance.AddComponent<BoxCollider2D>();

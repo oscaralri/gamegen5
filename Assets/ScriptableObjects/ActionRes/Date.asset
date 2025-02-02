@@ -19,6 +19,6 @@ MonoBehaviour:
   currentScore: 0
   actionID: 15
   isActive: 0
-  effectScriptable: {fileID: 0}
+  effectScriptable: {fileID: 11400000, guid: 159e4be625f64b14bbb53af371052b47, type: 2}
   time: 18
   minutes: 30

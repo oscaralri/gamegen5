@@ -14,7 +14,7 @@ public class ActionRes : ScriptableObject
     public AEffectAction effectScriptable;
     public int time;
     public int minutes;
-
+    public bool isOutfit;
     private void OnEnable()
     {
         currentScore = 0f;

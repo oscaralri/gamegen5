@@ -44,12 +44,12 @@ public class ActionManager : MonoBehaviour
         CheckWinCon();
     }
 
+
     private void CheckWinCon()
     {
         int contToWin = 0;
         for(int i = 0; i < _activeActions.Count; i++)
         {
-            // ESTÁ ASÍ POR DEBUG
             if(_activeActions[i]  == GameManager.Instance._allToDos[0])
             {
                 contToWin++;
@@ -103,7 +103,15 @@ public class ActionManager : MonoBehaviour
 
         for (int i = 0; i < _activeActions.Count; i++)
         {
-            if (_activeActions[i].time == currentHours && _activeActions[i].minutes == currentMinutes &&
+            // para el outfit
+            if(_activeActions[i].isOutfit)
+            {
+                _activeActions[i].effectScriptable.isExecuted = true;
+                _activeActions[i].effectScriptable.Execute();
+                StartCoroutine(UnexecuteActions(_activeActions[i], currentHours));
+            }
+            // resto
+            else if (_activeActions[i].time == currentHours && _activeActions[i].minutes == currentMinutes &&
                 !_activeActions[i].effectScriptable.isExecuted &&
                 _activeActions[i].currentScore > lastScore)
             {
@@ -118,8 +126,6 @@ public class ActionManager : MonoBehaviour
             currentAction.effectScriptable.Execute();
             StartCoroutine(UnexecuteActions(currentAction, currentHours));
         }
-
-
     }
     private IEnumerator UnexecuteActions(ActionRes actionRes, int executedHour)
     {

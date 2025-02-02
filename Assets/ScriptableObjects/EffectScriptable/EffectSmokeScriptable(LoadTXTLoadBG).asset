@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _backgroundToChange: {fileID: -5910231659686800532, guid: 8debdd36dd7e45c498c73127cf9ec9e1, type: 3}
   _text:
-  - Heeey
-  - Buenas que tal va todo bien ?
-  - 'Quieroquiero domir quiero dormir quiero dormir quiero dormir '
+  - ...
+  - "Alg\xFAn d\xEDa deber\xEDa dejarlo...."
+  - ...
+  - "Venga me fumo uno m\xE1s y se acab\xF3. "
+  - 

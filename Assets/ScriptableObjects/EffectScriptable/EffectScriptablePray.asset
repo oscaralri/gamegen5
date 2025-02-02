@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58577512233ecbf4da61682fc40b1a87, type: 3}
   m_Name: EffectScriptablePray
   m_EditorClassIdentifier: 
-  _backgroundToChange: {fileID: 0}
-  _text: []
+  _backgroundToChange: {fileID: -8070283000936406445, guid: e24819a267ee1004ba1b16b1cc3e2dea, type: 3}
+  _text:
+  - "Padre nuestro que est\xE1s en el cielo,  santificado sea tu Nombre; venga a
+    nosotros tu Reino; h\xE1gase tu voluntad  en la tierra como en el cielo."
+  - "Danos hoy  nuestro pan de cada d\xEDa; perdona nuestras ofensas, como tambi\xE9n
+    nosotros perdonamos  a los que nos ofenden; no nos dejes caer en la tentaci\xF3n,
+    y l\xEDbranos del mal."
+  - "Am\xE9n."
+  - 

@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
     public int minTimeSpeed, maxTimeSpeed;
     private float lastSpeed;
     int i = 0;
+    public SpriteRenderer currentOutfit;
 
     private void Awake()
     {
@@ -31,7 +32,6 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
     {
         i = 0;
         textToShow = textList;
-        textToShow.Add("");
     }
 
     public void ShowText()
@@ -75,6 +75,11 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
             GameManager.Instance.clock.timeSpeed = lastSpeed;
         }
 
+    }
+
+    public void ChangeOutfit(Sprite outfit)
+    {
+        currentOutfit.sprite = outfit;
     }
 
 }
