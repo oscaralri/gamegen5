@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Poster_Football
   m_EditorClassIdentifier: 
   DecorType: 2
-  Icon: {fileID: -3352211965453747608, guid: a7ece3e6e51651a49a3b19b85b699c71, type: 3}
-  Prefab: {fileID: 0}
+  Icon: {fileID: -2999502439681451460, guid: 914428379a2ac0b46a53b0996bdb43e5, type: 3}
+  Prefab: {fileID: 5293533931414937089, guid: c67cdbc3997b44b48b1b9eebf8150494, type: 3}
   aestheticType: 0

@@ -15,4 +15,4 @@ MonoBehaviour:
   DecorType: 5
   Icon: {fileID: 8447967639506595442, guid: 860a8cd37afedb94d88ea74e2bcd4875, type: 3}
   Prefab: {fileID: 5768687934800415451, guid: 9f87e97568d819f48853911eeaf0d74d, type: 3}
-  aestheticType: 0
+  aestheticType: 6

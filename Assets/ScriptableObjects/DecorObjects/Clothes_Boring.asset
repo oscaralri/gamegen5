@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Clothes_Boring
   m_EditorClassIdentifier: 
   DecorType: 13
-  Icon: {fileID: 21300000, guid: f18eba9f6e090ec4e88f47369fc831d0, type: 3}
+  Icon: {fileID: -5262670977383081903, guid: f8c2954f65de9ae41801bfee7803a218, type: 3}
   Prefab: {fileID: 4053453458238374253, guid: 9dd401bc22e17304a8228e024a8b906d, type: 3}
-  aestheticType: 0
+  aestheticType: 8

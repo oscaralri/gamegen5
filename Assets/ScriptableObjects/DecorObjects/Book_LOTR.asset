@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Book_LOTR
   m_EditorClassIdentifier: 
   DecorType: 10
-  Icon: {fileID: 4423560582970625025, guid: 30f3c63737b7e684eba76a59c1b174d6, type: 3}
-  Prefab: {fileID: 0}
+  Icon: {fileID: 3599822931299615610, guid: f600415485d000441b27b757a551a36b, type: 3}
+  Prefab: {fileID: 7703242600489743913, guid: e9e49cb122f7ea54da66d0e383766ff1, type: 3}
   aestheticType: 4

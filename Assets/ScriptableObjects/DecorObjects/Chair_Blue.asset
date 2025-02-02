@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Chair_Blue
   m_EditorClassIdentifier: 
   DecorType: 6
-  Icon: {fileID: 1643634088734070156, guid: e0b667661fd0b4e47b6f2ba76d055631, type: 3}
+  Icon: {fileID: -6103167037576889297, guid: 9ba9ce89dbff81d4398f29d61aedce42, type: 3}
   Prefab: {fileID: 7712275741454506213, guid: 6c6cc02803f2e674bae832a5004c2461, type: 3}
-  aestheticType: 0
+  aestheticType: 7

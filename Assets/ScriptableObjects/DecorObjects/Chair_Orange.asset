@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Chair_Orange
   m_EditorClassIdentifier: 
   DecorType: 6
-  Icon: {fileID: 8181687719354077619, guid: d331577a8bb46df43a338fb804ee733e, type: 3}
+  Icon: {fileID: 8119112658016795888, guid: 5ca6328544e0b5d4e8783e9db376e4dc, type: 3}
   Prefab: {fileID: 4452154364226202706, guid: b12ada767ac2a254b968b2321cbe9857, type: 3}
-  aestheticType: 0
+  aestheticType: 6

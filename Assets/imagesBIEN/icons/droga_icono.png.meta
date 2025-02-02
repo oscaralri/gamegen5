@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      droga_icono_0: 516521380943951500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

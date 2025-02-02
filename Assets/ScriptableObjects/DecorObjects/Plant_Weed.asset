@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Plant_Weed
   m_EditorClassIdentifier: 
   DecorType: 12
-  Icon: {fileID: 8523063210570614008, guid: 6b65223beeb53f646a56a29b27203cf0, type: 3}
+  Icon: {fileID: -1465302783219354249, guid: 2b273a4cd5f2e9a4b997c26e37bcf930, type: 3}
   Prefab: {fileID: 748016969083059250, guid: 2952f8ceea50d264888a516799eb8b3c, type: 3}
   aestheticType: 11

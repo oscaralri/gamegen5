@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Chair_Red
   m_EditorClassIdentifier: 
   DecorType: 6
-  Icon: {fileID: 5537559234148936289, guid: fb15d725365fca4479663ef4dbcf0f57, type: 3}
+  Icon: {fileID: 1805561497887477978, guid: 784527b1e78fb804eba416bbec772446, type: 3}
   Prefab: {fileID: 994700447280519742, guid: 88f7201352d64b24f97bf1f76677ab2c, type: 3}
-  aestheticType: 0
+  aestheticType: 7

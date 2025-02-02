@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecorType: 14
   Icon: {fileID: -7947410358071295660, guid: c38f5e67e46d3944caaa2823c8d55948, type: 3}
-  Prefab: {fileID: 0}
+  Prefab: {fileID: 7990052264147241363, guid: a0be1c810c8c3a146a052371d6ae8fbc, type: 3}
   aestheticType: 11

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Clothes_Office
   m_EditorClassIdentifier: 
   DecorType: 13
-  Icon: {fileID: 21300000, guid: 66886fd361e4e504fa021e5b51f4b8c7, type: 3}
+  Icon: {fileID: 1667069100942555772, guid: 93439cc80bb016449957b13f4aecdd7d, type: 3}
   Prefab: {fileID: 6698258834243239209, guid: 5939c15d4c234794a94c898223080e5c, type: 3}
-  aestheticType: 0
+  aestheticType: 1

@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 260, y: 1080}
+  m_AnchoredPosition: {x: 0, y: 155.91}
+  m_SizeDelta: {x: 260, y: 746}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7875613
 MonoBehaviour:
@@ -169,15 +169,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 4838865413252205931, guid: 9c6ea5229cd1b5b45b2ccc53f2f0f0b7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1746,7 +1746,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 176.29, y: 186.75}
+  m_AnchoredPosition: {x: 167, y: 186.45001}
   m_SizeDelta: {x: 352.58, y: 372.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729787863
@@ -2237,8 +2237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -832.1, y: 0}
-  m_SizeDelta: {x: 260, y: 1079.7}
+  m_AnchoredPosition: {x: -814, y: -10.665}
+  m_SizeDelta: {x: 260, y: 1058.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &872739860
 GameObject:
@@ -4246,20 +4246,20 @@ MonoBehaviour:
   _pages:
   - {fileID: 11400000, guid: 1ca58e9e4c18a094fa7b4922d264d905, type: 2}
   - {fileID: 11400000, guid: 565f6fcd5cbdf314ba0f4020807c527a, type: 2}
+  - {fileID: 11400000, guid: 7a00738d28f393146b11493b084a21b0, type: 2}
+  - {fileID: 11400000, guid: 799cb407c23eb764c85614b8e4db61b0, type: 2}
   - {fileID: 11400000, guid: faf5baa230f1b2240aeddf4b2bd69d83, type: 2}
   - {fileID: 11400000, guid: 68cd3c2dc18698c499957036f407562a, type: 2}
-  - {fileID: 11400000, guid: 3cda680045d62c741b40e690c1f4f028, type: 2}
-  - {fileID: 11400000, guid: 7a00738d28f393146b11493b084a21b0, type: 2}
-  - {fileID: 11400000, guid: b43d9c1d8bd6c64428781a71a41e5f25, type: 2}
-  - {fileID: 11400000, guid: c95e5c485a545324aa3fa28ceb99428b, type: 2}
-  - {fileID: 11400000, guid: c4a5241a17b034b489ec75d135bd6015, type: 2}
-  - {fileID: 11400000, guid: 799cb407c23eb764c85614b8e4db61b0, type: 2}
   - {fileID: 11400000, guid: c11db5fcbc5acf64ea0492ceaaf94cfa, type: 2}
+  - {fileID: 11400000, guid: c4a5241a17b034b489ec75d135bd6015, type: 2}
+  - {fileID: 11400000, guid: c95e5c485a545324aa3fa28ceb99428b, type: 2}
+  - {fileID: 11400000, guid: 3cda680045d62c741b40e690c1f4f028, type: 2}
+  - {fileID: 11400000, guid: b43d9c1d8bd6c64428781a71a41e5f25, type: 2}
   - {fileID: 11400000, guid: 4a489cf6cfdc4fa40b8f3f5a95de04ad, type: 2}
   _pagesParent: {fileID: 7875612}
-  startingPos: {x: -0.5, y: 4.3}
+  startingPos: {x: -0.5, y: 2.7}
   iconsPerRow: 2
-  iconSpacing: {x: 1, y: 1}
+  iconSpacing: {x: 1, y: 1.1}
   _tabGroup: {fileID: 729787865}
 --- !u!1 &1541531365
 GameObject:

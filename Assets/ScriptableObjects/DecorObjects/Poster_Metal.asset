@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Poster_Metal
   m_EditorClassIdentifier: 
   DecorType: 2
-  Icon: {fileID: -7746146543836170966, guid: 9d53b38a7b08de64d840d56dbf2ed57b, type: 3}
+  Icon: {fileID: 2971825360980280897, guid: bac347551b37f6b4f9f497dd7b858045, type: 3}
   Prefab: {fileID: 392135028918545962, guid: 5b4625ac0d2ee514c8a47d6673c95ac3, type: 3}
   aestheticType: 5

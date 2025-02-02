@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Mirror
   m_EditorClassIdentifier: 
   DecorType: 2
-  Icon: {fileID: -4232667464159293515, guid: 2c193bc5943daac4f8c648d5effb2274, type: 3}
-  Prefab: {fileID: 0}
+  Icon: {fileID: -2577348238730147801, guid: 05da03f27108962469ebac3ec663b13c, type: 3}
+  Prefab: {fileID: 5201058905656190882, guid: fb8fa63a242f1f747a13642b3c530a42, type: 3}
   aestheticType: 9

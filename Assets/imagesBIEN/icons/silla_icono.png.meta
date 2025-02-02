@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      silla_icono_0: -8394877063778268992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

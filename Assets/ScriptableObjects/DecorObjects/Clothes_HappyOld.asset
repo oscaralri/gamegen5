@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Clothes_HappyOld
   m_EditorClassIdentifier: 
   DecorType: 13
-  Icon: {fileID: 21300000, guid: 6e87792f451123f4091d9d91ba8920e8, type: 3}
+  Icon: {fileID: -7096749882963050800, guid: f8703c5c00c54e840820741a2008890c, type: 3}
   Prefab: {fileID: 8278489808423960658, guid: e016cf5e8dd35e546984c1737ff975c2, type: 3}
-  aestheticType: 0
+  aestheticType: 7

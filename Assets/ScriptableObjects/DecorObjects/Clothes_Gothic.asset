@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Clothes_Gothic
   m_EditorClassIdentifier: 
   DecorType: 13
-  Icon: {fileID: 21300000, guid: edfc86c7b1afc07468a0ae0cfed525c3, type: 3}
+  Icon: {fileID: 9194778411707712659, guid: 5afa395686900444fb7fe2dcb8024831, type: 3}
   Prefab: {fileID: 1958772309029549306, guid: 391a93514cd15bf449a2bb62a2edcdb8, type: 3}
-  aestheticType: 0
+  aestheticType: 2

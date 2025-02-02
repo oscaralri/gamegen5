@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alf_icono_0: -1240668689682182321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

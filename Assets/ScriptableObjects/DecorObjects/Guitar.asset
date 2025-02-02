@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Guitar
   m_EditorClassIdentifier: 
   DecorType: 1
-  Icon: {fileID: 2770045335861880280, guid: 54e2a3bf63b890449b3d5ef766b5bff7, type: 3}
+  Icon: {fileID: 6778857748496463179, guid: 15d018d757679f848bc96d7cf7750816, type: 3}
   Prefab: {fileID: 8545496077977231738, guid: 66c82bdfa9174e641929e112f9513472, type: 3}
   aestheticType: 14
