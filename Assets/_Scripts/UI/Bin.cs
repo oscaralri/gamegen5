@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -6,10 +7,13 @@ public class Bin : MonoBehaviour, IPointerClickHandler
 {
     public LayerMask layerMask;
     public bool isErasing = false;
+    public List<Sprite> sprites;
 
     public void OnPointerClick(PointerEventData eventData)
     {
         isErasing = !isErasing;
+        if(isErasing) GetComponent<SpriteRenderer>().sprite = sprites[0];
+        else GetComponent<SpriteRenderer>().sprite = sprites[1];
         Debug.Log("erasing " + isErasing);
     }
 /*

@@ -3,7 +3,6 @@ COSAS PRINCIPALES JUEGO:
 	- crear más efectos 
 	- cambio de niveles
 	- añadir sonidos en general
-	- (velocidad simulación)
 	- (sonido despertador)
 	- (+ niveles es lo ultimísimo si ya va todo)
 	
@@ -18,11 +17,8 @@ COSAS PRINCIPALES JUEGO:
 
 
 HACIENDO AHORA:
-	- velocidad simulacion:
-		- cambiar el time de clock con botones
 
-
-FALTA:
+FALTA:	
 - seguramente cuando ya nos pongamos voy a tener que tocar cosas de colliders y que se activen solo algunos dependiendo del objeto
 - cambiar de nivel (numLevel en GameManager)
 

@@ -11,6 +11,8 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
     public List<String> textToShow;
     public TextMeshProUGUI text;
     public Image imageSleep;
+    public int minTimeSpeed, maxTimeSpeed;
+    private float lastSpeed;
     int i = 0;
 
     private void Awake()
@@ -51,4 +53,28 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
         text.text = "";
         textToShow = new List<string>{""};
     }
+
+    public void ChangeSpeed(int num)
+    {
+        float speedMultiplier = (float)num / 2f; 
+        if(minTimeSpeed < GameManager.Instance.clock.timeSpeed * speedMultiplier && GameManager.Instance.clock.timeSpeed * speedMultiplier < maxTimeSpeed + 1)
+        {
+            GameManager.Instance.clock.timeSpeed *= speedMultiplier;
+        }
+    }
+
+    public void PauseResumeSpeed()
+    {
+        if(GameManager.Instance.clock.timeSpeed > 0) 
+        {
+            lastSpeed = GameManager.Instance.clock.timeSpeed;
+            GameManager.Instance.clock.timeSpeed = 0;
+        }
+        else
+        {
+            GameManager.Instance.clock.timeSpeed = lastSpeed;
+        }
+
+    }
+
 }
