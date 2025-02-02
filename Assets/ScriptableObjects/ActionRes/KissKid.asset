@@ -22,3 +22,4 @@ MonoBehaviour:
   effectScriptable: {fileID: 11400000, guid: 631be50b6e1f94d46ad5a3920d1cdd74, type: 2}
   time: 17
   minutes: 0
+  isOutfit: 0

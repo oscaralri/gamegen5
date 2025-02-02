@@ -112,8 +112,7 @@ public class ActionManager : MonoBehaviour
             }
             // resto
             else if (_activeActions[i].time == currentHours && _activeActions[i].minutes == currentMinutes &&
-                !_activeActions[i].effectScriptable.isExecuted &&
-                _activeActions[i].currentScore > lastScore)
+                !_activeActions[i].effectScriptable.isExecuted && _activeActions[i].currentScore > lastScore)
             {
                 lastScore = _activeActions[i].currentScore;
                 currentAction = _activeActions[i];
@@ -131,7 +130,7 @@ public class ActionManager : MonoBehaviour
     {
         while(Mathf.FloorToInt(_time / 3600) == executedHour)
         {
-            yield return new WaitForSeconds(1f);
+            yield return null;
         }
         Debug.Log("puesto a falso " + actionRes.actionID);
         actionRes.effectScriptable.isExecuted = false;

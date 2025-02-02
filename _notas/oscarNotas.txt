@@ -1,8 +1,8 @@
 COSAS PRINCIPALES JUEGO:
+	- cambiar musica a que se inicie en menu y que ya se quede a partir de ahi
 	- cambiar floor
 	- poner cambio de escena al ganar
 	- cambio de niveles
-	- añadir sonidos en general
 	- (comer acciones)
 	- (mejoras de acciones):
 		- (cita: 2 personas) 

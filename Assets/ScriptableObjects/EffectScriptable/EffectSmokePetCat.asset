@@ -19,3 +19,6 @@ MonoBehaviour:
   - ...
   - miau
   - 
+  audioClip:
+  - Park
+  - Cat

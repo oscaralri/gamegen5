@@ -5,10 +5,16 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "EffectScriptableWakeUp", menuName = "Scriptable Objects/EffectScriptableWakeUp")]
 public class EffectScriptableWakeUp : AEffectAction
 {
-    public override bool isExecuted {get; set;}
-    
+    [SerializeField] private bool _isExecuted = false;
+    public override bool isExecuted 
+    {
+        get => _isExecuted;
+        set => _isExecuted = value;
+    }
+
+    public List<string> audioClip;
     public Sprite _backgroundToChange;
-    public List<String> _text;
+    public List<string> _text;
 
     public override Sprite backgroundToChange
     {
@@ -16,7 +22,7 @@ public class EffectScriptableWakeUp : AEffectAction
         set => _backgroundToChange = value;
     }
 
-    public override List<String> text
+    public override List<string> text
     {
         get => _text;
         set => _text = value;
@@ -29,8 +35,21 @@ public class EffectScriptableWakeUp : AEffectAction
 
     public override void Execute()
     {
+        SoundManager.Instance.StopSFX();
+
         Debug.Log("effectWakeUp");
-        UIManager.Instance.ClearText();
-        UIManager.Instance.imageSleep.gameObject.SetActive(false);
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ClearText();
+            Color color = UIManager.Instance.imageSleep.color;
+            color.a = 0f; 
+            UIManager.Instance.imageSleep.color = color;
+        }
+
+        foreach(string name in audioClip)
+        {
+            SoundManager.Instance.PlaySFX(name);
+        }
     }
 }

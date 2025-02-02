@@ -10,6 +10,7 @@ public class EffectSmokeScriptable : AEffectAction
     
     public Sprite _backgroundToChange;
     public List<String> _text;
+    public List<string> audioClip;
 
     public override Sprite backgroundToChange
     {
@@ -30,9 +31,16 @@ public class EffectSmokeScriptable : AEffectAction
 
     public override void Execute()
     {
+                SoundManager.Instance.StopSFX();
+
         Debug.Log("effectSmoke");
         UIManager.Instance.ClearText();
         LoadImage();
         LoadText();
+        foreach(string name in audioClip)
+        {
+            SoundManager.Instance.PlaySFX(name);
+        }
+        
     }
 }

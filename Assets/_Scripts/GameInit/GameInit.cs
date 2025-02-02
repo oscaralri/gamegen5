@@ -18,6 +18,11 @@ public class GameInit : MonoBehaviour
         GenerateIcons();
     }
 
+    private void Start()
+    {
+        SoundManager.Instance.PlayMusic("Music");
+    }
+
     private void GenerateIcons()
     {
         for (int i = 0; i < _pages.Count; i++)

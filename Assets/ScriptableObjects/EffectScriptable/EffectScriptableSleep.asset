@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75daf4dda0ee41d4196a45d9f9f395b4, type: 3}
   m_Name: EffectScriptableSleep
   m_EditorClassIdentifier: 
+  audioClip:
+  - Lamp
   _backgroundToChange: {fileID: -8070283000936406445, guid: e24819a267ee1004ba1b16b1cc3e2dea, type: 3}
   _text:
   - Zzz.....

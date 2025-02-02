@@ -19,3 +19,5 @@ MonoBehaviour:
   - ...
   - "Venga me fumo uno m\xE1s y se acab\xF3. "
   - 
+  audioClip:
+  - Cigar
