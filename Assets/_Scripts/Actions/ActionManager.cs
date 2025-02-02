@@ -35,8 +35,7 @@ public class ActionManager : MonoBehaviour
     {
         _time = GameManager.Instance.clock.currentTimeInSeconds; 
         TimeSearch();
-
-        
+        CheckWinCon();
     }
 
     private void CheckWinCon()
@@ -75,14 +74,18 @@ public class ActionManager : MonoBehaviour
         {
             currentAction.effectScriptable.isExecuted = true;
             currentAction.effectScriptable.Execute();
-            StartCoroutine(UnexecuteActions(currentAction));
+            StartCoroutine(UnexecuteActions(currentAction, currentTime));
         }
         
     }
 
-    private IEnumerator UnexecuteActions(ActionRes actionRes)
+    private IEnumerator UnexecuteActions(ActionRes actionRes, int executedHour)
     {
-        yield return new WaitForSeconds(2f);
+        while(Mathf.FloorToInt(_time / 3600) == executedHour)
+        {
+            yield return new WaitForSeconds(1f);
+        }
+        Debug.Log("puesto a falso " + actionRes.actionID);
         actionRes.effectScriptable.isExecuted = false;
     }
 

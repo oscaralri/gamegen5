@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9309aa9434378b0488c8fde7abfa20a2, type: 3}
   m_Name: Fumar
   m_EditorClassIdentifier: 
-  bestTypes: 02000000
+  bestTypes: 0b000000
   averageTypes: 05000000
   wrongTypes: 00000000
   scoreToReach: 1
-  currentScore: 0
+  currentScore: 1
   actionID: 0
-  isActive: 0
+  isActive: 1
   effectScriptable: {fileID: 11400000, guid: d036425b088014948ba81e4af276b35e, type: 2}
   time: 1

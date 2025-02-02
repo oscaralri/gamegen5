@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     private ActionManager _actionManager;
     public Clock clock; 
     public GameObject[] furniture; // table
+    public SpriteRenderer background;
 
     private void Awake()
     {

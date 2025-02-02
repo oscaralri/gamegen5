@@ -12,3 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58577512233ecbf4da61682fc40b1a87, type: 3}
   m_Name: EffectSmokeScriptable
   m_EditorClassIdentifier: 
+  _backgroundToChange: {fileID: -5910231659686800532, guid: 8debdd36dd7e45c498c73127cf9ec9e1, type: 3}
+  _text:
+  - Heeey
+  - Buenas que tal va todo bien ?
+  - 'Quieroquiero domir quiero dormir quiero dormir quiero dormir '

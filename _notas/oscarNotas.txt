@@ -8,6 +8,9 @@ FALTA:
 - en la lista de furniture de gamemanager relacionarla bien con IconUI
 
 
+- A X HORAS DEL DÍA HACE ACCIONES SÍ O SÍ (IR A OFICINA, DORMIR)
+
+
 - rosa: 2 scriptable objects
 
 

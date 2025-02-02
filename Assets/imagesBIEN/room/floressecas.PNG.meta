@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      floressecas_0: -8718132129138901467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
