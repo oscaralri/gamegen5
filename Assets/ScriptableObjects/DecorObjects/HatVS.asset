@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
-  m_Name: Dog_Leash
+  m_Name: HatVS
   m_EditorClassIdentifier: 
-  DecorType: 2
-  Icon: {fileID: 6344121748677672362, guid: 98aed811d66bb1c4e863306e66a3a773, type: 3}
-  Prefab: {fileID: 3049498939770890430, guid: be198744b9ccc4349a20f1c724134092, type: 3}
-  aestheticType: 13
+  DecorType: 14
+  Icon: {fileID: 21300000, guid: 0463c861379b2174399940e2f38b0ced, type: 3}
+  Prefab: {fileID: 729633570219594457, guid: d4e01447f715c184d916acee6930136d, type: 3}
+  aestheticType: 4
