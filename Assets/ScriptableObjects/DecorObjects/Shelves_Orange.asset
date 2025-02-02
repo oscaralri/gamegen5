@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Shelves_Orange
   m_EditorClassIdentifier: 
   DecorType: 7
-  Icon: {fileID: 21300000, guid: 48622110476d55d49b37305ab5afd9fd, type: 3}
+  Icon: {fileID: -2092306409102020987, guid: afa7cf82b5a19c444842ae1fc20e7d32, type: 3}
   Prefab: {fileID: 4721176284336889832, guid: 73ed63d0c5732044395fd36af9651a13, type: 3}
   aestheticType: 0

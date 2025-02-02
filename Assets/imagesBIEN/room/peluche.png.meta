@@ -103,12 +103,12 @@ TextureImporter:
       name: peluche_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 5
-        width: 79
+        width: 87
         height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 25a2cc26c02ff7e49a56dc1fd2c4d079
     internalID: 0
     vertices: []
     indices: 

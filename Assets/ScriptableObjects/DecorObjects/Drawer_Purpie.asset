@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Drawer_Purpie
   m_EditorClassIdentifier: 
   DecorType: 5
-  Icon: {fileID: 5944355259998265076, guid: d32ced18605c6044c9a02df2900f48d6, type: 3}
+  Icon: {fileID: 9207318368686834770, guid: 38188ae1411cb764ca66a1fcc4d7c014, type: 3}
   Prefab: {fileID: 8442206573928917492, guid: 13aaab30a41072e40a6bfa6cf9d21a76, type: 3}
   aestheticType: 0

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Table_Orange
   m_EditorClassIdentifier: 
   DecorType: 4
-  Icon: {fileID: 21300000, guid: 7cd2a1d0d4b5c1949b68ef754c2da696, type: 3}
+  Icon: {fileID: 2592024258720886360, guid: d891715c958d8f44886397938dc9a42e, type: 3}
   Prefab: {fileID: 6235974320690284073, guid: d530f0b1ac2c6214db49a2a0d0a8a890, type: 3}
   aestheticType: 0

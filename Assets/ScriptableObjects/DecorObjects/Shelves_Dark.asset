@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Shelves_Dark
   m_EditorClassIdentifier: 
   DecorType: 7
-  Icon: {fileID: 21300000, guid: 05a7f879d3802404ca5eef3c2106b6c7, type: 3}
+  Icon: {fileID: 8508812389973637329, guid: 71c7b1c1f93a85545affba8319fe3338, type: 3}
   Prefab: {fileID: 1703558911087591498, guid: 1cd686eb0faab0d42a1ec9d70047399a, type: 3}
   aestheticType: 0

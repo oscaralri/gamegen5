@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sheets_Plain_Blue
   m_EditorClassIdentifier: 
   DecorType: 3
-  Icon: {fileID: -558328006040943029, guid: dabe283c3384af642a0b5c1fa0f3a95c, type: 3}
+  Icon: {fileID: 6533615792611507845, guid: 55303e05873c0f845baa5e12cc49b365, type: 3}
   Prefab: {fileID: 2388151317861758656, guid: 4ceee1d8554e56b4790687beb477d2f7, type: 3}
   aestheticType: 10

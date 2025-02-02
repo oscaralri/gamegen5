@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sheets_Plain_Lilac
   m_EditorClassIdentifier: 
   DecorType: 3
-  Icon: {fileID: -8220398124584680836, guid: 03ea7707dfed46c40aca796bd44d303c, type: 3}
+  Icon: {fileID: -8809624604285897583, guid: 7879e846b83191841b63990ab240e95d, type: 3}
   Prefab: {fileID: 6237457143947693109, guid: c93fe4bcd0b82f848ad5bc2e6e2c32a6, type: 3}
   aestheticType: 2

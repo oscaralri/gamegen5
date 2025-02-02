@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ashtray_Weed
   m_EditorClassIdentifier: 
   DecorType: 14
-  Icon: {fileID: -8107173305249095418, guid: bf23760258446d3479b85b98ebb00af0, type: 3}
+  Icon: {fileID: -7947410358071295660, guid: c38f5e67e46d3944caaa2823c8d55948, type: 3}
   Prefab: {fileID: 0}
   aestheticType: 11

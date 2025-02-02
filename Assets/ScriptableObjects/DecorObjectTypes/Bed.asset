@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Bed
   m_EditorClassIdentifier: 
   scriptableObjects:
-  - {fileID: 11400000, guid: d3dc97cef01222b48a7ab1827fee66a4, type: 2}
   - {fileID: 11400000, guid: 1b04f50c52d2ae541b6b7bc879d2aab4, type: 2}
   - {fileID: 11400000, guid: 43a4be2f73f909545a3328120ebef1be, type: 2}
   - {fileID: 11400000, guid: 7427a1e4bbfe6a642a50b1ea2e6efe33, type: 2}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Drawer_BrightBrown
   m_EditorClassIdentifier: 
   DecorType: 5
-  Icon: {fileID: -8512833397926825878, guid: ea62f5b8bbddfc347b2951775a3fb23c, type: 3}
+  Icon: {fileID: 8447967639506595442, guid: 860a8cd37afedb94d88ea74e2bcd4875, type: 3}
   Prefab: {fileID: 5768687934800415451, guid: 9f87e97568d819f48853911eeaf0d74d, type: 3}
   aestheticType: 0

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Table_Blue
   m_EditorClassIdentifier: 
   DecorType: 4
-  Icon: {fileID: 21300000, guid: 7cd2a1d0d4b5c1949b68ef754c2da696, type: 3}
+  Icon: {fileID: -2086576344751109494, guid: 0d443650039c58b48b80511c5d5152e6, type: 3}
   Prefab: {fileID: 712109983953521130, guid: c0c80ab816eb0f24baabd7b03332d3f8, type: 3}
   aestheticType: 0

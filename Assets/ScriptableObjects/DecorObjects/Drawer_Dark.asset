@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Drawer_Dark
   m_EditorClassIdentifier: 
   DecorType: 5
-  Icon: {fileID: 4555191780590673947, guid: 136e1e896ba05e54e9dbce73b3ea9f06, type: 3}
+  Icon: {fileID: 8360433305590700051, guid: 756f3b1b8107a0c4c982c3a6645be6d4, type: 3}
   Prefab: {fileID: 5331941331717083377, guid: b3212fff31629514dbda3d66b5acbd7e, type: 3}
   aestheticType: 0

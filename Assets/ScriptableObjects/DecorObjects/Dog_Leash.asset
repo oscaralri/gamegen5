@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Dog_Leash
   m_EditorClassIdentifier: 
   DecorType: 14
-  Icon: {fileID: -5977157722516737347, guid: c96d0143b7e29dd4d8a9b9fa43bcf4a1, type: 3}
+  Icon: {fileID: 6344121748677672362, guid: 98aed811d66bb1c4e863306e66a3a773, type: 3}
   Prefab: {fileID: 3049498939770890430, guid: be198744b9ccc4349a20f1c724134092, type: 3}
   aestheticType: 13

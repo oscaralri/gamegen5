@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Rug_Red
   m_EditorClassIdentifier: 
   DecorType: 9
-  Icon: {fileID: -3376590315816134257, guid: 41b05c657d993274b8b3700641f2f2db, type: 3}
+  Icon: {fileID: 2971684097277665929, guid: 65f4302a8011ecd4cab7716c5f2d53ee, type: 3}
   Prefab: {fileID: 4504940845945862754, guid: 1c6760e19cb4b6848b7c44cd62db57bb, type: 3}
   aestheticType: 13

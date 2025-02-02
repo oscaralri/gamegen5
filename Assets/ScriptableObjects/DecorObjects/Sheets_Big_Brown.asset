@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sheets_Big_Brown
   m_EditorClassIdentifier: 
   DecorType: 3
-  Icon: {fileID: -1704437646146948317, guid: b8ae0b0c57ccfc744874bd2e00a0ff0f, type: 3}
+  Icon: {fileID: 7840229855756863161, guid: 60dfcb12ffdf7604b8ef1c0581e04fcf, type: 3}
   Prefab: {fileID: 5113231071244827831, guid: 0d2b45392d967a84c9a277e982fd0e65, type: 3}
   aestheticType: 1

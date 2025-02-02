@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Poster_Painting
   m_EditorClassIdentifier: 
   DecorType: 2
-  Icon: {fileID: -3019985028412158030, guid: c70aafaedbe15d7418fc252790c9f95b, type: 3}
+  Icon: {fileID: -6307001066100093645, guid: 624ca92e06674d54f85614942d8cb4a9, type: 3}
   Prefab: {fileID: 1001194066809735804, guid: 26c490143b8311b46bb02a9ec243597b, type: 3}
   aestheticType: 7

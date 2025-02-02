@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sheets_Plain_Pink
   m_EditorClassIdentifier: 
   DecorType: 3
-  Icon: {fileID: -1523932164835256710, guid: e648382b037b55446943f28ced0388ae, type: 3}
+  Icon: {fileID: 6349033578206965565, guid: 75061d613273512408627ebe92f4e828, type: 3}
   Prefab: {fileID: 4461745668787204869, guid: 259ae8307e8fe3846be0ec2ecb863ba5, type: 3}
   aestheticType: 9
