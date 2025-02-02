@@ -6,8 +6,9 @@ using UnityEngine;
 public class ActionManager : MonoBehaviour
 {
     public static ActionManager Instance;
+    public List<ActionRes> actionsToAdd;
     
-    private List<ActionRes> _activeActions; 
+    public List<ActionRes> _activeActions; 
     private float _time;
 
     private void Awake()
@@ -18,6 +19,10 @@ public class ActionManager : MonoBehaviour
     private void Start()
     {
         _activeActions = new List<ActionRes>();
+        for(int i = 0; i < actionsToAdd.Count; i++)
+        {
+            _activeActions.Add(actionsToAdd[i]);
+        }
     }
 
     public void AddActiveAction(ActionRes actionRes)
@@ -44,6 +49,7 @@ public class ActionManager : MonoBehaviour
         int contToWin = 0;
         for(int i = 0; i < _activeActions.Count; i++)
         {
+            // ESTÁ ASÍ POR DEBUG
             if(_activeActions[i]  == GameManager.Instance._allToDos[0])
             {
                 contToWin++;
@@ -52,10 +58,9 @@ public class ActionManager : MonoBehaviour
             if(_activeActions[i]  == GameManager.Instance._allToDos[1]) contToWin++;
             
 
-            if(_activeActions[i]  == GameManager.Instance._allToDos[2]);
+            if(_activeActions[i]  == GameManager.Instance._allToDos[2]) contToWin++;
         }
 
-        Debug.Log("contToWin" + contToWin);
 
         if(contToWin == 3)
         {

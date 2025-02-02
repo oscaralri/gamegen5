@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "EffectSmokeScriptable", menuName = "Scriptable Objects/EffectSmokeScriptable")]
-public class EffectSmokeScriptable : AEffectAction
+[CreateAssetMenu(fileName = "EffectScriptableSleep", menuName = "Scriptable Objects/EffectScriptableSleep")]
+public class EffectScriptableSleep : AEffectAction
 {
     public override bool isExecuted {get; set;}
     
@@ -30,9 +29,10 @@ public class EffectSmokeScriptable : AEffectAction
 
     public override void Execute()
     {
-        Debug.Log("effectSmoke");
+        Debug.Log("effectsleep");
         UIManager.Instance.ClearText();
         LoadImage();
         LoadText();
+        UIManager.Instance.imageSleep.gameObject.SetActive(true);
     }
 }

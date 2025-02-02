@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
     public static UIManager Instance {get; set;}
     public List<String> textToShow;
     public TextMeshProUGUI text;
+    public Image imageSleep;
     int i = 0;
 
     private void Awake()
@@ -23,12 +24,6 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
-    private void Start()
-    {
-
-    }
-    
 
     public void LoadText(List<String> textList)
     {
@@ -49,5 +44,11 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
             i++;
             text.text = textToShow[i];
         }
+    }
+
+    public void ClearText()
+    {
+        text.text = "";
+        textToShow = new List<string>{""};
     }
 }

@@ -1,18 +1,32 @@
+COSAS PRINCIPALES JUEGO:
+	
+	- crear más efectos 
+	- cambio de niveles
+	- añadir sonidos en general
+	- (velocidad simulación)
+	- (sonido despertador)
+	- (+ niveles es lo ultimísimo si ya va todo)
+	
+
+
+	- ejecutar ciertos efectos predefinidos a ciertas horas X
+	- colocación de objetos X
+	- comprobación acciones X
+	- ejecutar efectos según hora X
+	- comprobación victoria X
+
+
+
 HACIENDO AHORA:
+	- velocidad simulacion:
+		- cambiar el time de clock con botones
 
 
 FALTA:
 - seguramente cuando ya nos pongamos voy a tener que tocar cosas de colliders y que se activen solo algunos dependiendo del objeto
 - cambiar de nivel (numLevel en GameManager)
-- no se está comprobando si están los 3 todos -> simplemente poner un check en actionManager (que tiene las cosas activas) y si se han conseguido los 3 hacer que no se pueda hacer nada hasta que se complete el dia que ya se acaba juego
-- en la lista de furniture de gamemanager relacionarla bien con IconUI
 
 
-- A X HORAS DEL DÍA HACE ACCIONES (IR A OFICINA, DORMIR)
-
-
-COSAS QUE HACER SÍ O SÍ:
-	- comprobación de todolist
 
 
 
@@ -34,4 +48,3 @@ ARREGLOS ALGÚN MOMENTO:
 	- cosas de interacción en ui y raycast que todo esté en capas bien colocadas para que no se compruebe con todo
 
 
-bed chair drawer nighttable shelves table
