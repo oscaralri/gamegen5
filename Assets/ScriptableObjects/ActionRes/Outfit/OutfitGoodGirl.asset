@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bestTypes: 010000000300000009000000
   averageTypes: 0600000007000000080000000c0000000d000000
-  wrongTypes: 02000000050000000b0000000f000000
+  wrongTypes: 020000000b00000005000000
   scoreToReach: 3
-  currentScore: 0
+  currentScore: 2.5
   actionID: 24
   isActive: 0
   effectScriptable: {fileID: 11400000, guid: 30b8d264f2fdd514191da8fd6a1b265f, type: 2}

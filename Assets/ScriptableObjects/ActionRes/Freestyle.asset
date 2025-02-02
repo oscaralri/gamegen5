@@ -15,8 +15,8 @@ MonoBehaviour:
   bestTypes: 0a0000000e0000000b000000
   averageTypes: 0f000000
   wrongTypes: 01000000090000000300000004000000
-  scoreToReach: 4
-  currentScore: 0
+  scoreToReach: 3
+  currentScore: 1.5
   actionID: 22
   isActive: 0
   effectScriptable: {fileID: 11400000, guid: ce935a9b998b3744890033d9051983a1, type: 2}

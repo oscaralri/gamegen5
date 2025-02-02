@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Yoga
   m_EditorClassIdentifier: 
   bestTypes: 070000000c00000000000000
-  averageTypes: 09000000
+  averageTypes: 0900000002000000
   wrongTypes: 0f0000000a000000
-  scoreToReach: 4
-  currentScore: 0
+  scoreToReach: 3
+  currentScore: 0.5
   actionID: 21
   isActive: 0
   effectScriptable: {fileID: 11400000, guid: ca9c87dde731ae94cae4ccd467b57d47, type: 2}

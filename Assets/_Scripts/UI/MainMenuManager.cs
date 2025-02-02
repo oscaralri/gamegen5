@@ -23,6 +23,11 @@ public class MainMenuManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        SoundManager.Instance.PlayMusic("Menu");
+    }
+
     public void ChangeCanvas(string name)
     {
         foreach(KeyValuePair<string, GameObject> canvas in canvasDict)

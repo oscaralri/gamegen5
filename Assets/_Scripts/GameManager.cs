@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour
         {
             if(placeableItem.aestheticType == action.wrongTypes[i])
             {
+                //if(action.currentScore > 0) 
                 action.currentScore -= _wrongAddToScore;
             }
         }

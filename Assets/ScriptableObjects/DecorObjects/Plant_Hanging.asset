@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826abcddc22a2ea43b056cf445ab82d6, type: 3}
   m_Name: Plant_Hanging
   m_EditorClassIdentifier: 
-  DecorType: 12
+  DecorType: 2
   Icon: {fileID: -1140642633463841397, guid: 1955cefc9d9510548b499c1427ddd5aa, type: 3}
   Prefab: {fileID: 3940783544875732324, guid: 45c918617b6289b4e830d1285d6b7d44, type: 3}
   aestheticType: 12

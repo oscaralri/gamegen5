@@ -4360,12 +4360,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levels:
-  - {fileID: 11400000, guid: c2f67a8a7376199469d9f916fa3437fc, type: 2}
+  - {fileID: 11400000, guid: 7f091f9b124a0d94197d05292655baa6, type: 2}
   _allActions: {fileID: 11400000, guid: f8983487b1829f24f9afa894d6ec5c8d, type: 2}
   _allToDos: []
   _bestAddToScore: 1
   _averageAddToScore: 0.5
-  _wrongAddToScore: -0.5
+  _wrongAddToScore: 0.5
   bin: {fileID: 1108664003}
   clock: {fileID: 926965702}
   furniture:

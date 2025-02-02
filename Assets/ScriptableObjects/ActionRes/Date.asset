@@ -15,7 +15,7 @@ MonoBehaviour:
   bestTypes: 0900000003000000
   averageTypes: 
   wrongTypes: 0f0000000800000004000000
-  scoreToReach: 4
+  scoreToReach: 3
   currentScore: 0
   actionID: 15
   isActive: 0

@@ -30,6 +30,7 @@ public class SoundManager : MonoBehaviour
     }
     public void PlayMusic(string musicName)
     {
+        StopMusic();
         AudioClip clip = soundLibrary.GetClip(musicName);
         if (clip != null)
         {

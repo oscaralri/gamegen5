@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: SmokeMonster
   m_EditorClassIdentifier: 
   bestTypes: 0b0000000f000000
-  averageTypes: 
+  averageTypes: 02000000
   wrongTypes: 030000000c00000001000000
-  scoreToReach: 4
-  currentScore: 0
+  scoreToReach: 3
+  currentScore: 1
   actionID: 14
   isActive: 0
   effectScriptable: {fileID: 11400000, guid: 41a43348e8bf1f742b983efb20a0b171, type: 2}
