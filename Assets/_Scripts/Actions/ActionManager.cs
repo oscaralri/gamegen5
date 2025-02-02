@@ -100,12 +100,15 @@ public class ActionManager : MonoBehaviour
 
         ActionRes currentAction = null;
         float lastScore = -1f;
+        float lastScoreOutfit = -1f;
 
         for (int i = 0; i < _activeActions.Count; i++)
         {
             // para el outfit
-            if(_activeActions[i].isOutfit)
+            if(_activeActions[i].isOutfit && _activeActions[i].currentScore > lastScoreOutfit)
             {
+                lastScoreOutfit = _activeActions[i].currentScore;
+
                 _activeActions[i].effectScriptable.isExecuted = true;
                 _activeActions[i].effectScriptable.Execute();
                 StartCoroutine(UnexecuteActions(_activeActions[i], currentHours));

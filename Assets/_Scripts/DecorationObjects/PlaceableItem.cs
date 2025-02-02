@@ -11,6 +11,7 @@ public class PlaceableItem : MonoBehaviour, IPlaceableItem
         if(GameManager.Instance.bin.isErasing == true)
         {
             //SceneFalse();
+            GameManager.Instance.DecorErased(gameObject.GetComponent<PlaceableItem>());
             Destroy(gameObject);
         }
     }
