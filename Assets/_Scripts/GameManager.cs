@@ -152,6 +152,10 @@ public class GameManager : MonoBehaviour
         }
         else if(clock.currentTimeInSeconds / 3600 == 0 && alreadyEnd != true)
         {
+            for(int i = 0; i < UIManager.Instance.sprites.Length; i++)
+            {
+                UIManager.Instance.sprites[i].SetActive(true);
+            }
             alreadyEnd = true;
         }
     }

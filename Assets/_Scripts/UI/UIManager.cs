@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour, IPointerClickHandler
     private float lastSpeed;
     int i = 0;
     public SpriteRenderer currentOutfit;
+    public GameObject[] sprites;
 
     private void Awake()
     {

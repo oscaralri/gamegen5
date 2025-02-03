@@ -255,10 +255,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programmer - \xD3scar Alarc\xF3n Riera\nArt - Rosa Suffo Garc\xEDa"
+  m_text: "Programaci\xF3n - \xD3scar Alarc\xF3n Riera\nArte - Rosa Suffo Garc\xEDa"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -761,7 +761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 201.20001, y: -459.2}
+  m_AnchoredPosition: {x: 227.1, y: -466.0975}
   m_SizeDelta: {x: 582.63, y: 55.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392748946
@@ -786,8 +786,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pulsa en la papelera, luego pulsa en el objeto que quieras eliminar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -811,8 +811,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -912,78 +912,6 @@ Transform:
   - {fileID: 2007038153}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &693331011
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 693331012}
-  - component: {fileID: 693331014}
-  - component: {fileID: 693331013}
-  m_Layer: 5
-  m_Name: OSCAR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &693331012
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693331011}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 867034813}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 364.9, y: -191}
-  m_SizeDelta: {x: 2048, y: 344}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &693331013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693331011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d166ae88b0a20b54c9ea6342795a4a8f, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &693331014
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693331011}
-  m_CullTransparentMesh: 1
 --- !u!1 &756050705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,7 +1021,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 223.6, y: 408.4}
+  m_AnchoredPosition: {x: 249.5, y: 401.5025}
   m_SizeDelta: {x: 201, y: 126.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &773720589
@@ -1118,8 +1046,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Consigue que el personaje haga todas sus tareas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1143,8 +1071,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1229,7 +1157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -769.8, y: 151}
+  m_AnchoredPosition: {x: -743.89996, y: 144.1025}
   m_SizeDelta: {x: 258.99, y: 208.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &777786306
@@ -1254,8 +1182,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Arrastra el objeto que quieras y c\xF3localo en la habitaci\xF3n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1279,8 +1207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1365,8 +1293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 712.8, y: 141}
-  m_SizeDelta: {x: 201, y: 50}
+  m_AnchoredPosition: {x: 781.3, y: 127.55}
+  m_SizeDelta: {x: 286.2, y: 36.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &827791816
 MonoBehaviour:
@@ -1390,8 +1318,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Botones para parar, acelerar o ralentizar el tiempo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1415,8 +1343,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1562,8 +1490,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1445808630}
-  - {fileID: 693331012}
-  - {fileID: 2143490030}
   - {fileID: 82270434}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1743,7 +1669,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -790, y: -284}
+  m_AnchoredPosition: {x: -764.1, y: -290.8975}
   m_SizeDelta: {x: 307, y: 154.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1028367230
@@ -1768,8 +1694,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Cada cuadrado es una categor\xEDa de objetos que se despliega arriba"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1793,8 +1719,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2066,7 +1992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.6, y: 392.8}
+  m_AnchoredPosition: {x: -118.700005, y: 385.9025}
   m_SizeDelta: {x: 201, y: 126.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1201067559
@@ -2092,8 +2018,8 @@ MonoBehaviour:
   m_text: "Los cambios en la habitaci\xF3n se ver\xE1n reflejados en el d\xEDa del
     personaje"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2117,8 +2043,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2278,7 +2204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13, y: 40}
+  m_AnchoredPosition: {x: 12.900002, y: 33.1025}
   m_SizeDelta: {x: 2092, y: 1571.043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309048378
@@ -2486,8 +2412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 734.6, y: -292.88}
-  m_SizeDelta: {x: 215.13, y: 51.77}
+  m_AnchoredPosition: {x: 788.08, y: -218.5}
+  m_SizeDelta: {x: 287.22, y: 55.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374093511
 MonoBehaviour:
@@ -2509,10 +2435,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aqu\xED se mostrar\xE1 lo que haga tu personaje"
+  m_text: "Aqu\xED se mostrar\xE1 lo que haga tu personaje\nPulsa en el bocadillo
+    para pasar los di\xE1logos"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2536,8 +2463,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2550,7 +2477,7 @@ MonoBehaviour:
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 96
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
@@ -3094,7 +3021,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.1, y: 8.8975}
+  m_AnchoredPosition: {x: 26, y: 2}
   m_SizeDelta: {x: 1972.65, y: 1097.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1863150563
@@ -3543,78 +3470,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2143490029
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2143490030}
-  - component: {fileID: 2143490032}
-  - component: {fileID: 2143490031}
-  m_Layer: 5
-  m_Name: ROSA
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &2143490030
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143490029}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47, y: 0.47, z: 0.47}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 867034813}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 364.90002, y: -394.00003}
-  m_SizeDelta: {x: 2048, y: 373}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2143490031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143490029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 91749379c56770c4f80e0db71c671386, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &2143490032
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143490029}
-  m_CullTransparentMesh: 1
 --- !u!1 &2145115711
 GameObject:
   m_ObjectHideFlags: 0
@@ -3649,7 +3504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 526, y: 395.6}
+  m_AnchoredPosition: {x: 551.9, y: 388.7025}
   m_SizeDelta: {x: 295.77, y: 61.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2145115713
@@ -3674,8 +3529,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "El reloj marca la hora del d\xEDa"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
-  m_sharedMaterial: {fileID: 3122218386543733653, guid: 5c572a94a740bba4e8f254d0781876bb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
+  m_sharedMaterial: {fileID: -8125313091063901955, guid: 1708a85f27af5824890d08c58ac48ad9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3699,8 +3554,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32.82
+  m_fontSizeBase: 32.82
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
